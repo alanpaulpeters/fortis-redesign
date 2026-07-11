@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { InkassoPage } from "@/components/pages/InkassoPage";
 
-import { de } from "@/content/locales/de";
+import { es } from "@/content/locales/es";
 
-const t = de.pages.inkasso;
+const t = es.pages.inkasso;
 
 export const metadata: Metadata = {
   title: t.metaTitle,
   description: t.metaDesc,
   alternates: {
-    canonical: "/inkassobeauftragung",
+    canonical: "/es/inkassobeauftragung",
     languages: {
       "de-DE": "/inkassobeauftragung",
       en: "/en/inkassobeauftragung",
@@ -20,5 +20,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <InkassoPage locale="de" />;
+  return <InkassoPage locale="es" />;
 }

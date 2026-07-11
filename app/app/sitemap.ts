@@ -4,16 +4,19 @@ import { allPosts } from "@/content/blog";
 const base = "https://fortis-inkasso.de";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = [
+  const basePaths = [
     "",
     "/inkassobeauftragung",
     "/mahnbescheid",
     "/auslandsinkasso",
     "/schuldner",
     "/kontakt",
-    "/blog",
-  ].map((path) => ({
-    url: `${base}${path}`,
+  ];
+  const localized = basePaths.flatMap((path) =>
+    ["", "/en", "/es"].map((prefix) => `${prefix}${path}`)
+  );
+  const pages = [...localized, "/blog"].map((path) => ({
+    url: `${base}${path || "/"}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: path === "" ? 1 : 0.8,

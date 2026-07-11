@@ -1,26 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { getDict, type Locale } from "@/content/locales";
 
-const services = [
-  {
-    title: "Inkassobeauftragung",
-    description:
-      "Wir ziehen Ihre offene Forderung außergerichtlich ein, für Unternehmen und Privatpersonen.",
-  },
-  {
-    title: "Mahnbescheid",
-    description:
-      "Reagiert der Schuldner nicht, leiten wir das gerichtliche Mahnverfahren für Sie ein.",
-  },
-  {
-    title: "Auslandsinkasso",
-    description:
-      "Auch über Grenzen hinweg setzen wir Ihre Forderung durch, mit Partnern vor Ort.",
-  },
-];
-
-export function Services() {
+export function Services({ locale = "de" }: { locale?: Locale }) {
+  const services = getDict(locale).services.items;
   return (
     <section id="leistungen" className="border-t border-white/[0.06] py-24">
       <div className="mx-auto max-w-6xl px-6">

@@ -9,6 +9,7 @@ import {
   Scales,
   WhatsappLogo,
 } from "@phosphor-icons/react/dist/ssr";
+import { getDict, type Locale, type Dict } from "@/content/locales";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 26 },
@@ -19,7 +20,7 @@ const fadeUp = {
   },
 };
 
-function WhatsAppDemo() {
+function WhatsAppDemo({ t }: { t: Dict["channels"] }) {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.5 });
   const reduce = useReducedMotion();
@@ -40,8 +41,7 @@ function WhatsAppDemo() {
         {...bubble(0.2)}
         className="max-w-[90%] self-start rounded-2xl rounded-tl-md border border-white/[0.08] bg-white/[0.06] p-3.5 text-[13px] leading-snug text-frost/85"
       >
-        Guten Tag Herr Mustermann, Ihre Rechnung über 115,95 € ist noch offen.
-        Hier können Sie direkt bezahlen:
+        {t.waMsg1}
         <span className="mt-2 block rounded-lg bg-mint/10 px-3 py-2 text-[12px] text-mint">
           fortis-portal.de/pay/468789164
         </span>
@@ -50,19 +50,20 @@ function WhatsAppDemo() {
         {...bubble(1.1)}
         className="max-w-[70%] self-end rounded-2xl rounded-tr-md bg-wa/[0.16] p-3.5 text-[13px] text-frost/90"
       >
-        Danke, erledigt 👍
+        {t.waMsg2}
       </motion.div>
       <motion.div
         {...bubble(1.8)}
         className="max-w-[70%] self-start rounded-2xl rounded-tl-md border border-white/[0.08] bg-white/[0.06] p-3.5 text-[13px] text-frost/85"
       >
-        Zahlung eingegangen. Der Fall ist abgeschlossen. ✅
+        {t.waMsg3}
       </motion.div>
     </div>
   );
 }
 
-export function Channels() {
+export function Channels({ locale = "de" }: { locale?: Locale }) {
+  const t = getDict(locale).channels;
   return (
     <section className="py-28 sm:py-36">
       <div className="mx-auto max-w-6xl px-6">
@@ -74,11 +75,10 @@ export function Channels() {
           className="mb-14 flex max-w-2xl flex-col gap-5"
         >
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Digital. Und trotzdem persönlich.
+            {t.title}
           </h2>
           <p className="text-lg font-light leading-relaxed text-frost/60">
-            Wir erreichen Schuldner dort, wo sie wirklich reagieren. Das ist
-            keine gewöhnliche Inkasso-Firma.
+            {t.lead}
           </p>
         </motion.div>
 
@@ -95,14 +95,13 @@ export function Channels() {
                 <WhatsappLogo size={30} weight="fill" />
               </span>
               <h3 className="text-2xl font-semibold tracking-tight">
-                Per WhatsApp bezahlt, in Minuten.
+                {t.waTitle}
               </h3>
               <p className="text-[15px] font-light leading-relaxed text-frost/60">
-                Die junge Generation liest keine Mahnbriefe. Sie zahlt per
-                Link, direkt im Chat.
+                {t.waBody}
               </p>
             </div>
-            <WhatsAppDemo />
+            <WhatsAppDemo t={t} />
           </motion.div>
 
           <motion.div
@@ -117,9 +116,9 @@ export function Channels() {
               <QrCode size={30} weight="regular" />
             </span>
             <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold tracking-tight">QR-Code-Zahlung</h3>
+              <h3 className="text-xl font-semibold tracking-tight">{t.qrTitle}</h3>
               <p className="text-[14px] font-light leading-relaxed text-frost/60">
-                Gescannt, bezahlt, bestätigt. Ohne Login, ohne App.
+                {t.qrBody}
               </p>
             </div>
           </motion.div>
@@ -144,12 +143,10 @@ export function Channels() {
                 <HouseLine size={28} weight="light" />
               </span>
               <h3 className="text-xl font-semibold tracking-tight">
-                Telefon. Und wenn nötig, vor Ort.
+                {t.phoneTitle}
               </h3>
               <p className="max-w-md text-[14px] font-light leading-relaxed text-frost/60">
-                Für alle, die das persönliche Gespräch bevorzugen: Wir nehmen
-                uns Zeit am Telefon und kommen nach Abstimmung auch zum
-                Hausbesuch.
+                {t.phoneBody}
               </p>
             </div>
           </motion.div>
@@ -167,11 +164,10 @@ export function Channels() {
             </span>
             <div className="flex flex-col gap-2">
               <h3 className="text-xl font-semibold tracking-tight">
-                Anwälte inklusive
+                {t.lawTitle}
               </h3>
               <p className="text-[14px] font-light leading-relaxed text-frost/60">
-                Bei Bedarf setzen unsere Anwälte Ihre Forderung gerichtlich
-                durch. Ohne Verzögerung.
+                {t.lawBody}
               </p>
             </div>
           </motion.div>

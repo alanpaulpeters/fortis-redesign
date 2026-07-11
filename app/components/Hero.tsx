@@ -12,6 +12,7 @@ import {
   WhatsappLogo,
 } from "@phosphor-icons/react/dist/ssr";
 import { Counter } from "@/components/Counter";
+import { getDict, localePrefix, type Locale } from "@/content/locales";
 
 const container = {
   hidden: {},
@@ -27,18 +28,20 @@ const fadeUp = {
   },
 };
 
-const events = [
-  { icon: WhatsappLogo, label: "WhatsApp zugestellt", meta: "Müller GmbH", color: "#25d366" },
-  { icon: QrCode, label: "QR-Code geöffnet", meta: "115,95 €", color: "#06d6a0" },
-  { icon: CurrencyEur, label: "Teilzahlung eingegangen", meta: "Auto Weber KG", color: "#06d6a0" },
-  { icon: CheckCircle, label: "Fall abgeschlossen", meta: "4.220 € ausgezahlt", color: "#06d6a0" },
-  { icon: FileText, label: "Neue Forderung eingereicht", meta: "Praxis Dr. Meier", color: "#8fa3c8" },
-  { icon: Phone, label: "Rückruf vereinbart", meta: "Nordwind Logistik", color: "#8fa3c8" },
-];
+const eventIcons = [WhatsappLogo, QrCode, CurrencyEur, CheckCircle, FileText, Phone];
+const eventColors = ["#25d366", "#06d6a0", "#06d6a0", "#06d6a0", "#8fa3c8", "#8fa3c8"];
 
 const VISIBLE = 4;
 
-export function Hero() {
+export function Hero({ locale = "de" }: { locale?: Locale }) {
+  const t = getDict(locale).hero;
+  const kontakt = locale === "de" ? "#kontakt" : `${localePrefix[locale]}/kontakt`;
+  const events = t.events.map((label, i) => ({
+    icon: eventIcons[i],
+    label,
+    meta: t.eventMeta[i],
+    color: eventColors[i],
+  }));
   const reduce = useReducedMotion();
   // Startzustand deterministisch halten (SSR = Client), erst danach rotieren
   const [head, setHead] = useState(VISIBLE - 1);
@@ -83,38 +86,37 @@ export function Hero() {
               variants={fadeUp}
               className="text-[13px] font-medium tracking-wide text-frost/50"
             >
-              Forderungsmanagement auf Erfolgsbasis
+              {t.eyebrow}
             </motion.span>
 
             <motion.h1
               variants={fadeUp}
               className="text-[46px] font-bold leading-[1.04] tracking-[-0.035em] sm:text-[62px] lg:text-[72px]"
             >
-              Ihr Geld.
+              {t.titleA}
               <br />
-              <span className="text-mint">Sicher zurück.</span>
+              <span className="text-mint">{t.titleB}</span>
             </motion.h1>
 
             <motion.p
               variants={fadeUp}
               className="max-w-md text-[17px] font-light leading-relaxed text-frost/65"
             >
-              Fortis treibt Ihre offenen Forderungen ein. Kostenlos für Sie,
-              wir verdienen nur bei Erfolg.
+              {t.lead}
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-wrap items-center gap-5">
               <a
-                href="#kontakt"
+                href={kontakt}
                 className="inline-flex items-center gap-2 rounded-full bg-mint px-7 py-3.5 text-[15px] font-semibold text-navy transition-transform hover:brightness-95 active:scale-[0.98]"
               >
-                Forderung einreichen <ArrowRight size={17} weight="bold" />
+                {t.cta} <ArrowRight size={17} weight="bold" />
               </a>
               <a
                 href="#ablauf"
                 className="group inline-flex items-center gap-1 text-[15px] font-medium text-frost/80 transition-colors hover:text-frost"
               >
-                So funktioniert&apos;s
+                {t.how}
                 <span className="transition-transform group-hover:translate-x-0.5">›</span>
               </a>
             </motion.div>
@@ -129,7 +131,7 @@ export function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-mint opacity-70" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-mint" />
               </span>
-              Live-Aktivität
+              {t.live}
             </div>
 
             <div className="flex flex-col gap-1">
@@ -170,19 +172,19 @@ export function Hero() {
             <span className="text-2xl font-semibold tracking-tight sm:text-3xl">
               <Counter value={2847} />
             </span>
-            <span className="text-xs text-frost/50">Forderungen 2026</span>
+            <span className="text-xs text-frost/50">{t.stats[0]}</span>
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-2xl font-semibold tracking-tight sm:text-3xl">
               <Counter value={98} suffix="%" />
             </span>
-            <span className="text-xs text-frost/50">Erfolgsquote</span>
+            <span className="text-xs text-frost/50">{t.stats[1]}</span>
           </div>
           <div className="flex flex-col gap-1">
             <span className="text-2xl font-semibold tracking-tight sm:text-3xl">
               <Counter value={0} suffix=" €" />
             </span>
-            <span className="text-xs text-frost/50">Vorkosten für Sie</span>
+            <span className="text-xs text-frost/50">{t.stats[2]}</span>
           </div>
         </div>
       </div>

@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { AuslandPage } from "@/components/pages/AuslandPage";
 
-import { de } from "@/content/locales/de";
+import { en } from "@/content/locales/en";
 
-const t = de.pages.ausland;
+const t = en.pages.ausland;
 
 export const metadata: Metadata = {
   title: t.metaTitle,
   description: t.metaDesc,
   alternates: {
-    canonical: "/auslandsinkasso",
+    canonical: "/en/auslandsinkasso",
     languages: {
       "de-DE": "/auslandsinkasso",
       en: "/en/auslandsinkasso",
@@ -20,5 +20,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <AuslandPage locale="de" />;
+  return <AuslandPage locale="en" />;
 }

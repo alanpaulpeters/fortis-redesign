@@ -9,9 +9,7 @@ import {
   type MotionValue,
 } from "framer-motion";
 
-const statement =
-  "Jede unbezahlte Rechnung bindet Ihr Geld, Ihre Zeit und Ihre Nerven. Die meisten Gläubiger warten. Und warten.";
-const punchline = "Wir nicht.";
+import { getDict, type Locale } from "@/content/locales";
 
 function Word({
   word,
@@ -30,7 +28,8 @@ function Word({
   );
 }
 
-export function Problem() {
+export function Problem({ locale = "de" }: { locale?: Locale }) {
+  const { statement, punchline } = getDict(locale).problem;
   const ref = useRef<HTMLElement>(null);
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll({

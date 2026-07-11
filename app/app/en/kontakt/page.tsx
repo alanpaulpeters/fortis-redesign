@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { KontaktPage } from "@/components/pages/KontaktPage";
 
-import { de } from "@/content/locales/de";
+import { en } from "@/content/locales/en";
 
-const t = de.pages.kontakt;
+const t = en.pages.kontakt;
 
 export const metadata: Metadata = {
   title: t.metaTitle,
   description: t.metaDesc,
   alternates: {
-    canonical: "/kontakt",
+    canonical: "/en/kontakt",
     languages: {
       "de-DE": "/kontakt",
       en: "/en/kontakt",
@@ -20,5 +20,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <KontaktPage locale="de" />;
+  return <KontaktPage locale="en" />;
 }

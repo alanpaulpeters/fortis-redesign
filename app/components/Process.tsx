@@ -17,42 +17,18 @@ import {
   WhatsappLogo,
 } from "@phosphor-icons/react/dist/ssr";
 import { Counter } from "@/components/Counter";
+import { getDict, type Locale, type Dict } from "@/content/locales";
 
-const stages = [
-  {
-    badge: "3 Minuten",
-    title: "Forderung einreichen",
-    body: "Rechnung hochladen, Schuldnerdaten angeben, fertig. Online, ohne Papierkram, ohne Vorkosten.",
-  },
-  {
-    badge: "Anwaltlich geprüft",
-    title: "Wir übernehmen",
-    body: "Unser Rechtsteam prüft Ihre Forderung und stellt rechtssicher zu. Sie lehnen sich zurück.",
-  },
-  {
-    badge: "Alle Kanäle",
-    title: "Wir erreichen jeden Schuldner",
-    body: "WhatsApp und QR-Zahlung für die Jungen, Telefon und Brief für alle anderen. Immer respektvoll.",
-  },
-  {
-    badge: "100% an Sie",
-    title: "Geld auf Ihrem Konto",
-    body: "Bei Erfolg erhalten Sie Ihre volle Forderung. Unsere Gebühren trägt der Schuldner.",
-  },
-];
+type ProcessDict = Dict["process"];
 
-const channels = [
-  { icon: WhatsappLogo, label: "WhatsApp", color: "#25d366" },
-  { icon: QrCode, label: "QR-Zahlung", color: "#06d6a0" },
-  { icon: Phone, label: "Telefon", color: "#8fa3c8" },
-  { icon: EnvelopeSimple, label: "Brief", color: "#8fa3c8" },
-];
+const channelIcons = [WhatsappLogo, QrCode, Phone, EnvelopeSimple];
+const channelColors = ["#25d366", "#06d6a0", "#8fa3c8", "#8fa3c8"];
 
-function StageVisual({ stage }: { stage: number }) {
+function StageVisual({ stage, t }: { stage: number; t: ProcessDict }) {
   if (stage === 0) {
     return (
       <div className="flex w-full max-w-[300px] flex-col gap-3">
-        {["Rechnung_2026-114.pdf", "Müller GmbH", "4.320,00 €"].map((line, i) => (
+        {t.visualLines.map((line, i) => (
           <motion.div
             key={line}
             initial={{ opacity: 0, y: 10 }}
@@ -69,7 +45,7 @@ function StageVisual({ stage }: { stage: number }) {
           transition={{ delay: 0.55, duration: 0.4 }}
           className="mt-1 rounded-full bg-mint py-3 text-center text-[13px] font-semibold text-navy"
         >
-          Einreichen
+          {t.submit}
         </motion.div>
       </div>
     );
@@ -93,7 +69,7 @@ function StageVisual({ stage }: { stage: number }) {
           transition={{ delay: 0.3 }}
           className="text-sm text-frost/60"
         >
-          Rechtssichere Zustellung läuft
+          {t.serving}
         </motion.p>
       </div>
     );
@@ -102,20 +78,23 @@ function StageVisual({ stage }: { stage: number }) {
   if (stage === 2) {
     return (
       <div className="grid w-full max-w-[300px] grid-cols-2 gap-3">
-        {channels.map((channel, i) => (
-          <motion.div
-            key={channel.label}
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.12 + i * 0.1, duration: 0.4 }}
-            className="flex flex-col items-center gap-2 rounded-2xl border border-white/[0.08] bg-white/[0.04] py-5"
-          >
-            <span style={{ color: channel.color }}>
-              <channel.icon size={26} weight="fill" />
-            </span>
-            <span className="text-[12px] text-frost/70">{channel.label}</span>
-          </motion.div>
-        ))}
+        {t.channels.map((label, i) => {
+          const Icon = channelIcons[i];
+          return (
+            <motion.div
+              key={label}
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.12 + i * 0.1, duration: 0.4 }}
+              className="flex flex-col items-center gap-2 rounded-2xl border border-white/[0.08] bg-white/[0.04] py-5"
+            >
+              <span style={{ color: channelColors[i] }}>
+                <Icon size={26} weight="fill" />
+              </span>
+              <span className="text-[12px] text-frost/70">{label}</span>
+            </motion.div>
+          );
+        })}
       </div>
     );
   }
@@ -133,13 +112,13 @@ function StageVisual({ stage }: { stage: number }) {
       <span className="text-[40px] font-semibold tracking-tight text-frost">
         <Counter value={4320} suffix=" €" duration={1.2} />
       </span>
-      <span className="text-sm text-frost/55">vollständig an Sie ausgezahlt</span>
+      <span className="text-sm text-frost/55">{t.payout}</span>
     </div>
   );
 }
 
-function StageText({ stage }: { stage: number }) {
-  const s = stages[stage];
+function StageText({ stage, t }: { stage: number; t: ProcessDict }) {
+  const s = t.stages[stage];
   return (
     <div className="flex flex-col items-start gap-4">
       <span className="rounded-full border border-mint/25 bg-mint/[0.08] px-3 py-1 text-[12px] font-medium text-mint">
@@ -153,7 +132,9 @@ function StageText({ stage }: { stage: number }) {
   );
 }
 
-export function Process() {
+export function Process({ locale = "de" }: { locale?: Locale }) {
+  const t = getDict(locale).process;
+  const stages = t.stages;
   const ref = useRef<HTMLElement>(null);
   const reduce = useReducedMotion();
   const [stage, setStage] = useState(0);
@@ -174,7 +155,7 @@ export function Process() {
         <div className="sticky top-0 flex h-[100dvh] flex-col justify-center overflow-hidden">
           <div className="mx-auto w-full max-w-6xl px-6">
             <p className="mb-12 text-[13px] font-medium tracking-wide text-frost/40">
-              So funktioniert&apos;s
+              {t.heading}
             </p>
 
             <div className="grid items-center gap-10 md:grid-cols-2 md:gap-16">
@@ -198,7 +179,7 @@ export function Process() {
                       exit={{ opacity: 0, y: -14 }}
                       transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                     >
-                      <StageText stage={stage} />
+                      <StageText stage={stage} t={t} />
                     </motion.div>
                   </AnimatePresence>
                 </div>
@@ -214,7 +195,7 @@ export function Process() {
                     transition={{ duration: 0.3 }}
                     className="flex w-full items-center justify-center"
                   >
-                    <StageVisual stage={stage} />
+                    <StageVisual stage={stage} t={t} />
                   </motion.div>
                 </AnimatePresence>
               </div>
@@ -224,14 +205,14 @@ export function Process() {
       ) : (
         <div className="mx-auto max-w-6xl px-6 py-28">
           <p className="mb-12 text-[13px] font-medium tracking-wide text-frost/40">
-            So funktioniert&apos;s
+            {t.heading}
           </p>
           <div className="flex flex-col gap-20">
             {stages.map((_, i) => (
               <div key={i} className="grid items-center gap-10 md:grid-cols-2">
-                <StageText stage={i} />
+                <StageText stage={i} t={t} />
                 <div className="flex min-h-[280px] items-center justify-center rounded-3xl border border-white/[0.07] bg-surface/60 p-8">
-                  <StageVisual stage={i} />
+                  <StageVisual stage={i} t={t} />
                 </div>
               </div>
             ))}

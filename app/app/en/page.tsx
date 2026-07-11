@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { HomePage } from "@/components/pages/HomePage";
 
 export const metadata: Metadata = {
-  title: { absolute: "Fortis Inkasso | Ihr Geld. Sicher zurück." },
+  title: { absolute: "Fortis Inkasso | Your money. Safely back." },
   description:
-    "Forderungsmanagement auf Erfolgsbasis. Für Gläubiger kostenlos, 100% Ihrer Forderung bei Erfolg. Digital per WhatsApp und QR-Code, persönlich am Telefon und vor Ort.",
+    "Success-based receivables management. Free for creditors, 100% of your claim on success. Digital via WhatsApp and QR code, personal by phone and on site.",
   alternates: {
-    canonical: "/",
+    canonical: "/en",
     languages: {
       "de-DE": "/",
       en: "/en",
@@ -17,5 +17,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <HomePage locale="de" />;
+  return <HomePage locale="en" />;
 }

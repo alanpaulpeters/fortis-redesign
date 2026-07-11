@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, EnvelopeSimple, Phone } from "@phosphor-icons/react/dist/ssr";
+import { getDict, type Locale } from "@/content/locales";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 26 },
@@ -12,7 +13,8 @@ const fadeUp = {
   },
 };
 
-export function CtaSection() {
+export function CtaSection({ locale = "de" }: { locale?: Locale }) {
+  const t = getDict(locale).ctaSection;
   return (
     <section id="kontakt" className="relative overflow-hidden py-32 sm:py-44">
       <div className="pointer-events-none absolute inset-0" aria-hidden>
@@ -28,18 +30,17 @@ export function CtaSection() {
         className="relative mx-auto flex max-w-3xl flex-col items-center gap-8 px-6 text-center"
       >
         <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-6xl">
-          Holen Sie sich, was Ihnen zusteht.
+          {t.title}
         </h2>
         <p className="max-w-md text-lg font-light leading-relaxed text-frost/60">
-          Kostenlos einreichen, in drei Minuten. Die Erstberatung ist
-          unverbindlich.
+          {t.lead}
         </p>
 
         <a
           href="mailto:info@fortis-inkasso.de"
           className="inline-flex items-center gap-2 rounded-full bg-mint px-8 py-4 text-[16px] font-semibold text-navy transition-transform hover:brightness-95 active:scale-[0.98]"
         >
-          Forderung einreichen <ArrowRight size={18} weight="bold" />
+          {t.button} <ArrowRight size={18} weight="bold" />
         </a>
 
         <div className="mt-2 flex flex-col items-center gap-2 text-[14px] text-frost/50 sm:flex-row sm:gap-8">

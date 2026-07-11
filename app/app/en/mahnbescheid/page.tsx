@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { MahnbescheidPage } from "@/components/pages/MahnbescheidPage";
 
-import { de } from "@/content/locales/de";
+import { en } from "@/content/locales/en";
 
-const t = de.pages.mahnbescheid;
+const t = en.pages.mahnbescheid;
 
 export const metadata: Metadata = {
   title: t.metaTitle,
   description: t.metaDesc,
   alternates: {
-    canonical: "/mahnbescheid",
+    canonical: "/en/mahnbescheid",
     languages: {
       "de-DE": "/mahnbescheid",
       en: "/en/mahnbescheid",
@@ -20,5 +20,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <MahnbescheidPage locale="de" />;
+  return <MahnbescheidPage locale="en" />;
 }
