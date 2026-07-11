@@ -17,6 +17,7 @@ const links = [
   { name: "Auslandsinkasso", href: "/auslandsinkasso" },
   { name: "Schuldner", href: "/schuldner" },
   { name: "Blog", href: "/blog" },
+  { name: "Login", href: "/portal" },
 ];
 
 export function Nav() {

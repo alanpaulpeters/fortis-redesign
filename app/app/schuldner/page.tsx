@@ -101,8 +101,8 @@ export default function Schuldner() {
           eyebrow="Für Schuldner"
           title="Sie haben ein Schreiben von uns erhalten?"
           lead="Dann besteht eine unbestrittene Forderung gegen Sie. Das ist kein Problem und kann passieren. Wichtig ist jetzt, dass Sie handeln und die Forderung begleichen, um weitere Kosten zu vermeiden."
-          primary={{ label: "Jetzt Kontakt aufnehmen", href: "/kontakt" }}
-          secondary={{ label: "Beratungsgespräch vereinbaren", href: "/kontakt" }}
+          primary={{ label: "Weiter zum Serviceportal", href: "/portal" }}
+          secondary={{ label: "Fragen? Jetzt Kontakt aufnehmen", href: "/kontakt" }}
         />
 
         <section className="border-t border-white/[0.06] py-24 sm:py-28">
