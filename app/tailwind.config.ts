@@ -17,6 +17,12 @@ const config: Config = {
         surface: "#0c1526",
         raised: "#13223c",
         frost: "#f4f7fb",
+        // Portal-Theme (Light/Dark über CSS-Variablen in .portal)
+        pbg: "rgb(var(--p-bg) / <alpha-value>)",
+        pcard: "rgb(var(--p-card) / <alpha-value>)",
+        ptext: "rgb(var(--p-text) / <alpha-value>)",
+        pline: "rgb(var(--p-line) / <alpha-value>)",
+        pfield: "rgb(var(--p-field) / <alpha-value>)",
       },
       fontFamily: {
         sans: ["var(--font-sora)", "sans-serif"],

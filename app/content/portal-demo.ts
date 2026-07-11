@@ -16,13 +16,23 @@ export type ClaimStatus =
   | "Abgeschlossen"
   | "Abgewiesen";
 
-// Palette gegen dark surface #0c1526 validiert (dataviz-Skill, 6 Checks)
-export const statusColor: Record<ClaimStatus, string> = {
-  Eingereicht: "#3987e5",
-  Geprüft: "#c98500",
-  "Geltend gemacht": "#9085e9",
-  Abgeschlossen: "#199e70",
-  Abgewiesen: "#e66767",
+// Paletten je Theme validiert (dataviz-Skill, 6 Checks):
+// dark gegen surface #0c1526, light gegen #ffffff
+export const statusColors: Record<"light" | "dark", Record<ClaimStatus, string>> = {
+  dark: {
+    Eingereicht: "#3987e5",
+    Geprüft: "#c98500",
+    "Geltend gemacht": "#9085e9",
+    Abgeschlossen: "#199e70",
+    Abgewiesen: "#e66767",
+  },
+  light: {
+    Eingereicht: "#2a78d6",
+    Geprüft: "#eda100",
+    "Geltend gemacht": "#4a3aa7",
+    Abgeschlossen: "#1baf7a",
+    Abgewiesen: "#e34948",
+  },
 };
 
 export type Claim = {

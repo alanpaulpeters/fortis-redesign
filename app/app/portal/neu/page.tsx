@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   Check,
   CaretLeft,
@@ -21,8 +22,15 @@ const steps = [
 ];
 
 const inputClass =
-  "w-full rounded-xl border border-white/[0.1] bg-white/[0.04] px-4 py-3 text-[14px] text-frost placeholder:text-frost/35 focus:border-mint/60 focus:outline-none";
-const labelClass = "mb-2 block text-[13px] font-medium text-frost/70";
+  "w-full rounded-xl border border-pline/15 bg-pline/[0.03] px-4 py-3 text-[14px] text-ptext transition-shadow placeholder:text-ptext/40 focus:border-mint focus:outline-none focus:ring-2 focus:ring-mint/20";
+const labelClass = "mb-2 block text-[13px] font-medium text-ptext/70";
+
+const stepMotion = {
+  initial: { opacity: 0, x: 24 },
+  animate: { opacity: 1, x: 0 },
+  exit: { opacity: 0, x: -18 },
+  transition: { duration: 0.3, ease: [0.16, 1, 0.3, 1] as const },
+};
 
 export default function NeueForderung() {
   const [step, setStep] = useState(0);
@@ -35,7 +43,7 @@ export default function NeueForderung() {
   return (
     <div className="grid gap-10 lg:grid-cols-[340px_1fr]">
       {/* Stepper */}
-      <aside className="h-fit rounded-3xl border border-white/[0.08] bg-gradient-to-b from-navy2/60 to-surface p-6 lg:p-8">
+      <aside className="p-card h-fit rounded-3xl bg-gradient-to-b from-navy2 to-navy p-6 text-frost lg:p-8">
         <h1 className="mb-6 text-xl font-semibold lg:mb-8">Forderung einreichen</h1>
         <ol className="flex flex-col gap-4 lg:gap-7">
           {steps.map((s, i) => {
@@ -76,13 +84,15 @@ export default function NeueForderung() {
       </aside>
 
       {/* Inhalt */}
-      <section className="rounded-3xl border border-white/[0.08] bg-surface/60 p-8 sm:p-10">
+      <section className="p-card overflow-hidden rounded-3xl border border-pline/10 bg-pcard p-8 sm:p-10">
+        <AnimatePresence mode="wait" initial={false}>
+        <motion.div key={step} {...stepMotion}>
         {step === 0 && (
           <>
             <h2 className="text-xl font-semibold">
               Forderung einreichen <span className="text-red-400">*</span>
             </h2>
-            <p className="mt-1 text-[13px] text-frost/50">
+            <p className="mt-1 text-[13px] text-ptext/50">
               Mögliche Dateiformate: PDF.
             </p>
             <button
@@ -91,19 +101,19 @@ export default function NeueForderung() {
               className={`mt-8 flex w-full items-center gap-4 rounded-2xl border-2 border-dashed p-8 text-left transition-colors ${
                 fileChosen
                   ? "border-mint/50 bg-mint/[0.05]"
-                  : "border-white/[0.15] hover:border-mint/40 hover:bg-white/[0.02]"
+                  : "border-pline/20 hover:border-mint/50 hover:bg-pline/[0.02]"
               }`}
             >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/[0.06] text-mint">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-pline/[0.05] text-mint2">
                 {fileChosen ? <FilePdf size={24} /> : <UploadSimple size={24} />}
               </span>
               <span>
-                <span className="block text-[15px] font-semibold text-frost/90">
+                <span className="block text-[15px] font-semibold text-ptext/90">
                   {fileChosen
                     ? "rechnung_2026_204.pdf ausgewählt"
                     : "Dokument hier ablegen oder zum Hochladen klicken."}
                 </span>
-                <span className="block text-[13px] font-light text-frost/50">
+                <span className="block text-[13px] font-light text-ptext/50">
                   {fileChosen
                     ? "Klicken Sie auf Weiter, um fortzufahren."
                     : "Sie werden anschließend automatisch weitergeleitet!"}
@@ -116,7 +126,7 @@ export default function NeueForderung() {
         {step === 1 && (
           <>
             <h2 className="text-xl font-semibold">Extrahierte Daten überprüfen.</h2>
-            <p className="mt-1 text-[13px] text-frost/50">
+            <p className="mt-1 text-[13px] text-ptext/50">
               Wir haben folgende Angaben aus Ihrem Dokument erkannt – bitte prüfen
               und bei Bedarf korrigieren.
             </p>
@@ -158,7 +168,7 @@ export default function NeueForderung() {
                 <select className={inputClass} defaultValue="DE - Deutschland">
                   {["DE - Deutschland", "AT - Österreich", "CH - Schweiz", "NL - Niederlande", "FR - Frankreich"].map(
                     (c) => (
-                      <option key={c} className="bg-surface">
+                      <option key={c} className="bg-pcard">
                         {c}
                       </option>
                     )
@@ -208,7 +218,7 @@ export default function NeueForderung() {
                 <select className={inputClass} defaultValue="H00 - Hauptforderung">
                   {["H00 - Hauptforderung", "K01 - Mahnkosten", "K02 - Verzugszinsen", "Z01 - Teilzahlung"].map(
                     (o) => (
-                      <option key={o} className="bg-surface">
+                      <option key={o} className="bg-pcard">
                         {o}
                       </option>
                     )
@@ -234,7 +244,7 @@ export default function NeueForderung() {
         {step === 4 && (
           <>
             <h2 className="text-xl font-semibold">Vollständige Angaben.</h2>
-            <p className="mt-1 text-[13px] text-frost/50">
+            <p className="mt-1 text-[13px] text-ptext/50">
               Letzte Angaben zur Forderung und rechtliche Bestätigungen.
             </p>
             <div className="mt-8 flex flex-col gap-5">
@@ -255,7 +265,7 @@ export default function NeueForderung() {
               ].map((text) => (
                 <label
                   key={text}
-                  className="flex items-start gap-3 rounded-xl border border-white/[0.07] bg-white/[0.02] p-4 text-[13px] font-light leading-relaxed text-frost/65"
+                  className="flex items-start gap-3 rounded-xl border border-pline/10 bg-pline/[0.02] p-4 text-[13px] font-light leading-relaxed text-ptext/65"
                 >
                   <input type="checkbox" className="mt-0.5 accent-mint" />
                   {text} <span className="text-red-400">*</span>
@@ -273,7 +283,7 @@ export default function NeueForderung() {
             <h2 className="mt-6 text-2xl font-semibold">
               Ihre Forderung wurde erfolgreich eingereicht.
             </h2>
-            <p className="mt-2 max-w-md text-[14px] font-light leading-relaxed text-frost/55">
+            <p className="mt-2 max-w-md text-[14px] font-light leading-relaxed text-ptext/55">
               Wir prüfen Ihre Unterlagen und melden uns schnellstmöglich zurück,
               ob wir Ihren Auftrag annehmen. Den Status verfolgen Sie jederzeit
               in Ihrer Forderungsübersicht.
@@ -286,21 +296,23 @@ export default function NeueForderung() {
             </Link>
           </div>
         )}
+        </motion.div>
+        </AnimatePresence>
 
         {step < 5 && (
-          <div className="mt-10 flex items-center justify-between border-t border-white/[0.06] pt-6">
+          <div className="mt-10 flex items-center justify-between border-t border-pline/10 pt-6">
             {step > 0 ? (
               <button
                 type="button"
                 onClick={back}
-                className="flex items-center gap-2 rounded-full border border-white/[0.1] bg-white/[0.04] px-6 py-2.5 text-[13px] font-medium text-frost/75 transition-colors hover:bg-white/[0.08]"
+                className="flex items-center gap-2 rounded-full border border-pline/15 bg-pline/[0.03] px-6 py-2.5 text-[13px] font-medium text-ptext/75 transition-colors hover:bg-pline/[0.06]"
               >
                 <CaretLeft size={14} /> Zurück
               </button>
             ) : (
               <Link
                 href="/portal"
-                className="flex items-center gap-2 rounded-full border border-white/[0.1] bg-white/[0.04] px-6 py-2.5 text-[13px] font-medium text-frost/75 transition-colors hover:bg-white/[0.08]"
+                className="flex items-center gap-2 rounded-full border border-pline/15 bg-pline/[0.03] px-6 py-2.5 text-[13px] font-medium text-ptext/75 transition-colors hover:bg-pline/[0.06]"
               >
                 Übersicht
               </Link>
@@ -309,7 +321,7 @@ export default function NeueForderung() {
               <button
                 type="button"
                 onClick={() => setShowOptional(!showOptional)}
-                className="hidden rounded-full border border-white/[0.1] bg-white/[0.04] px-5 py-2.5 text-[13px] text-frost/60 hover:bg-white/[0.08] sm:block"
+                className="hidden rounded-full border border-pline/15 bg-pline/[0.03] px-5 py-2.5 text-[13px] text-ptext/60 hover:bg-pline/[0.06] sm:block"
               >
                 Optionale Felder
               </button>
