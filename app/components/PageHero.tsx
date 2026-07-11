@@ -26,7 +26,7 @@ export function PageHero({
             {eyebrow}
           </p>
         )}
-        <h1 className="text-4xl font-semibold tracking-tight text-balance sm:text-6xl">
+        <h1 className="hyphens-auto break-words text-3xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
           {title}
         </h1>
         <p className="max-w-2xl text-lg font-light leading-relaxed text-frost/60">

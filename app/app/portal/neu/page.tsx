@@ -35,9 +35,9 @@ export default function NeueForderung() {
   return (
     <div className="grid gap-10 lg:grid-cols-[340px_1fr]">
       {/* Stepper */}
-      <aside className="h-fit rounded-3xl border border-white/[0.08] bg-gradient-to-b from-navy2/60 to-surface p-8">
-        <h1 className="mb-8 text-xl font-semibold">Forderung einreichen</h1>
-        <ol className="flex flex-col gap-7">
+      <aside className="h-fit rounded-3xl border border-white/[0.08] bg-gradient-to-b from-navy2/60 to-surface p-6 lg:p-8">
+        <h1 className="mb-6 text-xl font-semibold lg:mb-8">Forderung einreichen</h1>
+        <ol className="flex flex-col gap-4 lg:gap-7">
           {steps.map((s, i) => {
             const done = i < step;
             const active = i === step;
@@ -65,7 +65,7 @@ export default function NeueForderung() {
                   >
                     {s.title}
                   </p>
-                  <p className="mt-0.5 text-[12px] font-light leading-snug text-frost/40">
+                  <p className="mt-0.5 hidden text-[12px] font-light leading-snug text-frost/40 lg:block">
                     {s.sub}
                   </p>
                 </div>

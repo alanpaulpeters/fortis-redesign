@@ -194,7 +194,7 @@ export default function PortalDashboard() {
                 </span>
               </div>
 
-              <div className="mt-5 flex flex-wrap gap-3">
+              <div className="mt-5 grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:gap-3">
                 {[
                   { icon: TrendDown, value: open, label: "Offene Ford." },
                   { icon: CheckCircle, value: success, label: "Erfolgreiche Ford." },
@@ -202,12 +202,15 @@ export default function PortalDashboard() {
                 ].map((stat) => (
                   <div
                     key={stat.label}
-                    className="rounded-xl border border-white/[0.1] bg-white/[0.04] px-5 py-3"
+                    className="rounded-xl border border-white/[0.1] bg-white/[0.04] px-3 py-2.5 sm:px-5 sm:py-3"
                   >
-                    <p className="flex items-center gap-1.5 text-xl font-semibold text-frost">
-                      <stat.icon size={16} className="text-mint" /> {stat.value}
+                    <p className="flex items-center gap-1.5 text-lg font-semibold text-frost sm:text-xl">
+                      <stat.icon size={16} className="shrink-0 text-mint" />
+                      {stat.value}
                     </p>
-                    <p className="text-[12px] text-frost/50">{stat.label}</p>
+                    <p className="text-[11px] text-frost/50 sm:text-[12px]">
+                      {stat.label}
+                    </p>
                   </div>
                 ))}
               </div>
