@@ -1,0 +1,455 @@
+// Legal texts, English translation of the German originals.
+// NOTE: This is a faithful translation for information purposes. The German
+// version remains legally authoritative; have a lawyer review before relying on it.
+import type { LegalSection } from "./types";
+
+export const impressum: LegalSection[] = [
+  {
+    h: "Details:",
+    p: [
+      "Fortis Inkasso GmbH & Co. KG",
+      "Gehrtsstraße 16",
+      "40235 Düsseldorf / Germany",
+      "M +49 211 15856110",
+      "Email. info@fortis-inkasso.de",
+      "Web.  www.fortis-inkasso.de",
+      "Registered Office: Düsseldorf",
+      "Registration No. HRA 27149",
+      "VAT ID: DE368251884",
+      "Supervisory authority:",
+      "Federal Office of Justice (Bundesamt für Justiz)",
+      "Adenauerallee 99 – 103",
+      "53113 Bonn",
+      "Germany",
+      "Managing Director: Fortis Verwaltungs GmbH",
+      "Disclaimer:",
+      "Liability for content",
+      "All content on our website was created with the utmost care and to the best of our knowledge. However, we cannot assume any liability for the accuracy, completeness and timeliness of the content. As a service provider, we are responsible for our own content on these pages in accordance with the general laws. However, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under the general laws remain unaffected by this.",
+      "However, liability in this respect is only possible from the point in time at which knowledge of a specific infringement is obtained. Upon becoming aware of the aforementioned infringements, we will remove this content without delay.",
+      "Limitation of liability for external links",
+      "Our website contains links to external third-party websites. We have no influence on the content of these directly or indirectly linked websites. We can therefore not assume any liability for the accuracy of the content of the “external links”. The respective providers or operators (authors) of the pages are responsible for the content of the external links.",
+      "The external links were checked for possible legal violations at the time the link was set and were free of illegal content at the time the link was set. Ongoing monitoring of the content of the external links is not possible without concrete indications of a legal violation. In the case of direct or indirect links to third-party websites that lie outside our area of responsibility, a liability obligation would only exist if we became aware of the content and if it were technically possible and reasonable for us to prevent use in the event of illegal content.",
+      "This disclaimer also applies to links and references set within our own website “Name of your domain” by questioners, blog contributors and guests of the discussion forum. The provider of the page to which reference was made is solely liable for illegal, incorrect or incomplete content and in particular for damage arising from the use or non-use of such information, not the party who merely refers to the respective publication via links.",
+      "If we become aware of legal violations, the external links will be removed by us without delay.",
+      "Copyright",
+      "The content and works published on our website are subject to German copyright law (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf). The reproduction, editing, distribution and any kind of exploitation of intellectual property in an ideal and material sense outside the limits of copyright require the prior written consent of the respective author within the meaning of the Copyright Act (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf). Downloads and copies of this page are only permitted for private, non-commercial use. Insofar as the content on our website was not created by us, the copyrights of third parties must be observed. Third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please notify us accordingly. Upon becoming aware of legal violations, we will remove such content without delay.",
+      "General information obligation pursuant to Section 36 of the German Consumer Dispute Resolution Act (VSBG):",
+      "Fortis Inkasso GmbH & Co. KG does not participate in a dispute resolution procedure within the meaning of the VSBG. There is no legal obligation to do so in this respect.",
+    ],
+  },
+];
+
+export const agb: LegalSection[] = [
+  {
+    h: "GENERAL TERMS AND CONDITIONS of Fortis Inkasso GmbH & Co. KG",
+    p: [],
+  },
+  {
+    h: "§ 2 Access; standard services",
+    p: [
+      "Subject to differing individual agreements, the client is entitled to submit any number of claims and the associated invoice or claim documents via the service portal and to have them processed within the scope of out-of-court receivables management (standard services).",
+      "Fortis is entitled to make access to the service portal and/or individual functionalities dependent on the fulfilment of duties to cooperate, the deposit of complete master data and the timely payment of due fees.",
+      "Fortis owes the provision of the service portal in its respective current version within the scope of the technical and operational possibilities. There is no entitlement to uninterrupted availability at all times; Fortis is entitled to maintenance windows and technically necessary interruptions.",
+      "Access data must be kept secret and protected from access by third parties. Uses under proper use of the access data are deemed, in the relationship between Fortis and the client, to have been initiated by the client, unless the client proves that no fault lies with them.",
+    ],
+  },
+  {
+    h: "B. Debt collection order / performance of services",
+    p: [],
+  },
+  {
+    h: "§ 3 Placing of the order and subject matter of the service",
+    p: [
+      "The order is placed by handing over/transmitting the debtor and claim data; it is not necessarily concluded merely by completing a contact form. All offers made by Fortis are non-binding; in particular, time specifications (execution deadlines, etc.) are non-binding unless their binding nature is expressly promised.",
+      "Without a separate and remunerated order, Fortis does not examine objections and defences against the claim assigned to it for collection.",
+      "Fortis’s remuneration is governed, insofar as legally applicable, by the provisions of the Legal Services Act (RDG) and the Lawyers’ Remuneration Act (RVG). The statutory provisions apply to reimbursability from the debtor, in particular Section 13e RDG; in the case of a combined engagement of a debt collection service provider and a lawyer, Section 13f RDG applies in addition. Insofar as Fortis asserts costs, fees, disbursements or ancillary claims against the debtor, this is only done to the extent permitted by law.",
+      "Third-party costs and disbursements, in particular court and bailiff costs, register enquiries, residents’ registration office enquiries, detective agency and authority costs, service of documents, translations, international collection costs and the costs of engaged lawyers/partner law firms, are borne by the client insofar as these cannot be realised from the debtor or have been advanced by Fortis. Fortis is entitled to demand a reasonable advance for incurred or expected third-party costs and disbursements, or the immediate provision of the specifically requested amounts, prior to carrying out the respective measure.",
+      "Fortis is entitled to take all measures that are conducive to the collection of the claim. Fortis may agree instalment payments and deferrals with debtors, accept payments and – insofar as legally permissible and expedient – conclude agreements and waivers regarding the principal claim, ancillary claims and costs.",
+      "If out-of-court collection efforts remain unsuccessful or if judicial pursuit appears expedient, Fortis initiates judicial dunning proceedings, applies for an enforcement order or pursues other judicial measures only on the basis of a separate order. Judicial measures are only initiated after the requested court costs, disbursements and advances have been provided. Fortis’s remuneration for dunning proceedings, enforcement order, compulsory enforcement and other judicial measures becomes due for payment vis-à-vis the client at the latest upon filing/applying for the respective measure. In the event of an objection, appeal or contested proceedings, Fortis is entitled, after separate agreement, to engage a lawyer or a partner law firm; the relevant contractual relationship in this respect is then established directly between the client and the lawyer, unless expressly agreed otherwise.",
+    ],
+  },
+  {
+    h: "§ 4 Remuneration in out-of-court proceedings; legal bases; success-based nature; default interest",
+    p: [
+      "This Section 4 contains the remuneration agreement for the out-of-court debt collection services of Fortis.",
+      "For the out-of-court processing of a claim, the client owes remuneration exclusively in the event of success. Success exists as soon as payments, partial payments, set-offs, credit notes, settlement amounts, proceeds from securities or other economic realisations are made in full or in part on the transferred claim or on ancillary claims; direct payments by the debtor to the client are equivalent to success.",
+      "In the event of success, Fortis’s success-based remuneration is measured according to the statutory remuneration due to a lawyer for the specific out-of-court activity under the RVG, including legally permissible disbursements and value added tax, insofar as it applies. The remuneration only becomes due in each case to the extent that, and as soon as, economic realisations exist. Fortis is entitled to cover, offset and retain the due remuneration from incoming or realised amounts within the framework of the collective settlement pursuant to Section 6. Without success, no remuneration is incurred for the out-of-court collection activity.",
+      "Insofar as the debtor pays collection costs, disbursements or other ancillary claims attributable to the out-of-court activity to Fortis or to the client, these are credited against Fortis’s remuneration claims. Fortis is entitled to collect, retain and/or offset such amounts within the framework of the collective settlement.",
+      "The client hereby assigns to Fortis – insofar as legally permissible – all claims for reimbursement of the collection costs as well as all claims for payment of default interest from the claims submitted to Fortis; Fortis accepts the assignment. Insofar as default interest is realised, it is due to Fortis as an additional success-based remuneration component and is not to be paid out to the client.",
+      "This remuneration agreement concerns exclusively the out-of-court collection activity. Court costs, bailiff costs, costs of the judicial dunning procedure, costs of an enforcement order, costs of compulsory enforcement, costs of engaged lawyers/partner law firms and other third-party costs and disbursements are not covered by this and are to be borne separately by the client in accordance with these GTC or advanced upon request.",
+      "The agreement on the contingency fee is based in particular on the default and collection risk, the pre-financing and processing effort of Fortis, the uncertain realisability of the costs vis-à-vis the debtor in individual cases, and the client’s interest in not owing any remuneration for unsuccessful out-of-court activities.",
+      "In the event of early termination of the order before success occurs, no success-based remuneration is incurred for the out-of-court activity performed up to that point. However, if, after termination of the order, payments or other economic realisations are still made on the basis of a payment, instalment or settlement agreement initiated or concluded by Fortis during the term of the contract, or on the basis of other measures initiated by Fortis, the success-based remuneration under the preceding paragraphs remains owed.",
+      "A contingency fee is not agreed insofar as the collection service relates to a claim that is not subject to attachment.",
+      "Note: Collection costs are only reimbursable from the debtor up to the amount of the remuneration due to a lawyer under the RVG.",
+    ],
+  },
+  {
+    h: "§ 5 Duties of the client to cooperate",
+    p: [
+      "For the duration of the order, the claim may be processed by the client neither directly nor indirectly. In particular, the client may not hand over the claim documents to a lawyer or another debt collection company simultaneously or after placing the order for the purpose of examination and assertion. The client also ceases all of its own collection efforts against the debtor. Anything else only applies if an agreement to this effect has been made with Fortis.",
+      "The client undertakes to support Fortis in carrying out the order and, in particular, after placing the order, to refrain from any contact regarding the disputed claim with the debtor, i.e. no longer to correspond or negotiate with them and not to initiate any of its own judicial steps, unless expressly agreed otherwise.",
+      "Incoming payments, partial payments, set-offs, credit notes, realisation of securities, instalment or settlement agreements and other events affecting the realisation of the claim must be reported to Fortis without delay. This also applies to direct payments by the debtor to the client. Such direct payments are deemed, in the relationship between client and Fortis, to be an economic realisation and may be taken into account, settled and offset by Fortis within the framework of the collective settlement.",
+      "The client is liable to Fortis for the legal existence of the claim transferred for collection and for the consequences of incomplete or incorrect information. If, as a result of this incomplete or incorrect information, third parties assert claims for damages against Fortis, the client indemnifies Fortis against these claims.",
+    ],
+  },
+  {
+    h: "§ 6 Order of settlement; collective settlement; set-off; assignment",
+    p: [
+      "Insofar as the debtor owes several claims, the discharge of the individual claims is governed first by an effective allocation determination by the debtor and otherwise by the statutory provisions. Within the respective claim concerned, incoming payments are – insofar as legally permissible – credited first to costs, then to interest and lastly to the principal claim.",
+      "Fortis is entitled to keep an internal client account for each client. On this account, all items arising from the contractual relationship are recorded in consolidated form, in particular Fortis’s remuneration claims, advanced and requested third-party costs, court costs, bailiff costs, costs of engaged lawyers/partner law firms, disbursements, cost reimbursement claims, default interest, principal claim shares, credit notes, charge-backs and other balance items.",
+      "All payments, partial payments, credit notes, set-offs, settlement amounts, realisations of securities or other economic realisations received by Fortis or directly by the client from all claim matters of the same client processed by Fortis are first recorded in the client account.",
+      "Fortis is entitled, insofar as legally permissible, within the framework of a cross-case collective settlement, to set off all due claims existing against the client from all collection orders – irrespective of the legal grounds and also from matters processed in parallel or at different times – against any pay-out claims of the client, and/or to exercise a right of retention until settlement. This includes in particular success-based remuneration claims, assigned default interest, advanced or requested third-party costs, court fees, costs of the dunning procedure, costs of compulsory enforcement, costs of engaged lawyers/partner law firms, direct debit return costs and other disbursements.",
+      "Insofar as no mandatory statutory requirements, effective allocation determinations by the debtor or superior third-party rights conflict with this, Fortis is entitled to carry out the accounting allocation and offsetting of incoming payments to individual items of the client account at its reasonable discretion.",
+      "The respective collective settlement, individual settlement or other offsetting declaration in text form simultaneously serves as a declaration of set-off. A pay-out claim of the client only arises to the extent that, and as soon as, after complete recording and offsetting of all of Fortis’s due claims, a positive balance remains in favour of the client and no justified retentions on account of charge-back, reclaim, objection or clarification periods, ongoing third-party costs or other fee/cost risks exist any longer.",
+      "Insofar as amounts are due to Fortis after assignment, set-off, offsetting or on the basis of a right of retention, these are not third-party funds to be paid out to the client. Otherwise, third-party funds are treated in accordance with the statutory requirements. Third-party fund amounts do not bear interest.",
+      "Depending on the means of payment used, Fortis may defer the settlement of a third-party fund share contained therein until the expiry of customary charge-back, chargeback or objection periods.",
+      "A set-off by the client is only permissible with undisputed or legally established counterclaims.",
+    ],
+  },
+  {
+    h: "§ 7 Termination of individual collection orders; right of retention",
+    p: [
+      "Each collection order may be terminated by the client at any time in text form. In the event of termination or other ending, success-based remuneration due up to that point pursuant to Section 4 (including remuneration components subsequently becoming due pursuant to Section 4 (8)), advanced or requested third-party costs, court costs, costs of judicial measures, costs of compulsory enforcement, costs of engaged lawyers/partner law firms and other disbursements remain unaffected.",
+      "The termination or other ending requires text form (email is sufficient), unless a stricter form is mandatorily prescribed.",
+      "With regard to the enforcement documents, including the enforcement title, there is a right of retention until the incurred and invoiced costs have been paid by the client.",
+      "Fortis is entitled to terminate the order relationship if the client, after placing the order, negotiates with the debtor on its own authority without Fortis’s consent or continues to take action against them. If the client does not respond to Fortis’s enquiries for longer than one month and after two requests, Fortis may terminate the order. Fortis’s claims already due, as well as advanced or requested costs and disbursements, remain in place in these cases.",
+    ],
+  },
+  {
+    h: "§ 8 Confidentiality",
+    p: [
+      "Fortis and the client are mutually obliged to treat all information and documents obtained in connection with the execution of the order as strictly confidential. This also applies after termination.",
+    ],
+  },
+  {
+    h: "§ 9 Data protection",
+    p: [
+      "Within the scope of the applicable data protection laws, Fortis is entitled to collect, process, use and store all necessary data. In particular, Fortis is entitled, while observing the data protection provisions, to obtain data from credit agencies (e.g. SCHUFA) and to make reports there, insofar as this is necessary for enforcing the claim and within the legal framework.",
+    ],
+  },
+  {
+    h: "§ 10 Place of jurisdiction / applicable law",
+    p: [
+      "The law of the Federal Republic of Germany applies exclusively, to the exclusion of foreign law and international sales law. In the case of merchants, legal entities under public law or special funds under public law, the place of jurisdiction is Düsseldorf. The same place of jurisdiction applies if the client has no general place of jurisdiction in the Federal Republic of Germany at the time judicial proceedings are initiated.",
+    ],
+  },
+  {
+    h: "§ 11 Final provisions",
+    p: [
+      "Amendments and additions to these GTC require text form, unless a stricter form is prescribed by law.",
+      "Should a provision of these GTC be or become invalid or unenforceable, the validity of the remaining provisions remains unaffected. In place of the invalid/unenforceable provision, a provision that comes closest to the economic purpose is deemed to have been agreed. The same applies to gaps in the provisions.",
+      "As of: May 2026",
+    ],
+  },
+];
+
+export const datenschutz: LegalSection[] = [
+  {
+    h: "Privacy Policy",
+    p: ["As of: 1 March 2023"],
+  },
+  {
+    h: "Table of contents",
+    p: [
+      "Controller",
+      "Overview of processing operations",
+      "Relevant legal bases",
+      "Security measures",
+      "Transfer of personal data",
+      "Data processing in third countries",
+      "Deletion of data",
+      "Use of cookies",
+      "Business services",
+      "Providers and services used in the course of business",
+      "Provision of the online offering and web hosting",
+      "Blogs and publication media",
+      "Contact and enquiry management",
+      "Promotional communication via email, post, fax or telephone",
+      "Web analytics, monitoring and optimisation",
+      "Online marketing",
+      "Plugins and embedded functions and content",
+      "Amendment and update of the privacy policy",
+      "Rights of data subjects",
+    ],
+  },
+  {
+    h: "Controller",
+    p: [
+      "Controller within the meaning of the GDPR:",
+      "Fortis Inkasso GmbH & Co. KG",
+      "Gehrtsstraße 16",
+      "40235 Düsseldorf",
+      "Germany",
+      "Email: info@fortis-inkasso.de",
+      "Represented by its general partner Fortis Verwaltungs GmbH.",
+    ],
+  },
+  {
+    h: "Overview of processing operations",
+    p: [
+      "The following overview summarises the types of data processed and the purposes of their processing and refers to the data subjects.",
+    ],
+  },
+  {
+    h: "Types of data processed",
+    p: [
+      "Inventory data.",
+      "Payment data.",
+      "Contact data.",
+      "Content data.",
+      "Contract data.",
+      "Usage data.",
+      "Meta, communication and procedural data.",
+    ],
+  },
+  {
+    h: "Categories of data subjects",
+    p: [
+      "Customers.",
+      "Interested parties.",
+      "Communication partners.",
+      "Users.",
+      "Business and contractual partners.",
+    ],
+  },
+  {
+    h: "Purposes of processing",
+    p: [
+      "Provision of contractual services and customer service.",
+      "Contact requests and communication.",
+      "Security measures.",
+      "Direct marketing.",
+      "Reach measurement.",
+      "Tracking.",
+      "Office and organisational procedures.",
+      "Conversion measurement.",
+      "Management and response to enquiries.",
+      "Feedback.",
+      "Marketing.",
+      "Profiles with user-related information.",
+      "Provision of our online offering and user-friendliness.",
+      "Information technology infrastructure.",
+    ],
+  },
+  {
+    h: "Relevant legal bases",
+    p: [
+      "Below you will find an overview of the legal bases of the GDPR on the basis of which we process personal data. Please note that in addition to the provisions of the GDPR, national data protection requirements may apply in your or our country of residence or domicile. Should more specific legal bases be relevant in individual cases, we will inform you of these in the privacy policy.",
+      "Consent (Art. 6 para. 1 sentence 1 lit. a) GDPR) – The data subject has given their consent to the processing of the personal data concerning them for a specific purpose or several specific purposes.",
+      "Performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR) – Processing is necessary for the performance of a contract to which the data subject is party, or in order to take steps at the request of the data subject prior to entering into a contract.",
+      "Legal obligation (Art. 6 para. 1 sentence 1 lit. c) GDPR) – Processing is necessary for compliance with a legal obligation to which the controller is subject.",
+      "Legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR) – Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require the protection of personal data.",
+      "In addition to the data protection provisions of the GDPR, national data protection provisions apply in Germany. These include in particular the Act on Protection against the Misuse of Personal Data in Data Processing (Federal Data Protection Act – BDSG). The BDSG contains, in particular, special provisions on the right of access, the right to erasure, the right to object, the processing of special categories of personal data, processing for other purposes and transmission, as well as automated decision-making in individual cases including profiling. Furthermore, it governs data processing for the purposes of the employment relationship (Section 26 BDSG), in particular with regard to the establishment, performance or termination of employment relationships and the consent of employees. Data protection laws of the individual federal states may also apply.",
+    ],
+  },
+  {
+    h: "Security measures",
+    p: [
+      "In accordance with the legal requirements and taking into account the state of the art, the implementation costs and the nature, scope, circumstances and purposes of the processing, as well as the varying likelihood and severity of the risk to the rights and freedoms of natural persons, we take appropriate technical and organisational measures to ensure a level of protection appropriate to the risk.",
+      "The measures include in particular safeguarding the confidentiality, integrity and availability of data by controlling physical and electronic access to the data as well as the access, input, disclosure, safeguarding of availability and separation relating to it. Furthermore, we have set up procedures that ensure the exercise of data subjects’ rights, the deletion of data and responses to threats to the data. Furthermore, we already take into account the protection of personal data during the development or selection of hardware, software and procedures in accordance with the principle of data protection by design and by privacy-friendly default settings.",
+    ],
+  },
+  {
+    h: "Transfer of personal data",
+    p: [
+      "In the course of our processing of personal data, it may happen that the data is transferred to, or disclosed to, other entities, companies, legally independent organisational units or persons. Recipients of this data may include, for example, service providers commissioned with IT tasks or providers of services and content that are integrated into a website. In such cases, we comply with the legal requirements and, in particular, conclude corresponding contracts or agreements that serve to protect your data with the recipients of your data.",
+    ],
+  },
+  {
+    h: "Data processing in third countries",
+    p: [
+      "If we process data in a third country (i.e. outside the European Union (EU) or the European Economic Area (EEA)), or if the processing takes place in the context of using third-party services or the disclosure or transfer of data to other persons, entities or companies, this only takes place in accordance with the legal requirements.",
+      "Subject to express consent or transfer required by contract or law, we only process or have the data processed in third countries with a recognised level of data protection, contractual obligation through so-called standard contractual clauses of the EU Commission, in the presence of certifications or binding internal data protection rules (Art. 44 to 49 GDPR, information page of the EU Commission: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de).",
+    ],
+  },
+  {
+    h: "Deletion of data",
+    p: [
+      "The data processed by us is deleted in accordance with the legal requirements as soon as the consents permitting processing are revoked or other permissions cease to apply (e.g. if the purpose of processing this data no longer applies or it is not required for the purpose). If the data is not deleted because it is required for other and legally permissible purposes, its processing is limited to these purposes. This means the data is blocked and not processed for other purposes. This applies, for example, to data that must be retained for commercial or tax law reasons or whose storage is necessary for the assertion, exercise or defence of legal claims or for the protection of the rights of another natural or legal person.",
+      "Our data protection notices may also contain further information on the retention and deletion of data that take precedence for the respective processing operations.",
+    ],
+  },
+  {
+    h: "Use of cookies",
+    p: [
+      "Cookies are small text files, or other storage markers, that store information on end devices and read information from end devices. For example, to store the login status in a user account, the contents of a shopping cart in an e-shop, the content accessed or functions used of an online offering. Cookies can also be used for various purposes, e.g. for the functionality, security and convenience of online offerings and to create analyses of visitor flows.",
+      "Notes on consent: We use cookies in accordance with the legal provisions. Therefore, we obtain prior consent from users, unless this is not required by law. Consent is in particular not necessary if the storage and reading of the information, including cookies, are strictly necessary in order to provide users with a telemedia service (i.e. our online offering) they have expressly requested. The revocable consent is clearly communicated to users and contains the information on the respective cookie use.",
+      "Notes on the data protection legal bases: The data protection legal basis on which we process users’ personal data with the help of cookies depends on whether we ask users for consent. If users consent, the legal basis for processing their data is the declared consent. Otherwise, the data processed with the help of cookies is processed on the basis of our legitimate interests (e.g. in the commercial operation of our online offering and the improvement of its usability) or, if this takes place within the framework of the performance of our contractual obligations, if the use of cookies is necessary to fulfil our contractual obligations. We clarify the purposes for which we process cookies in the course of this privacy policy or within the framework of our consent and processing procedures.",
+      "Storage period: With regard to the storage period, the following types of cookies are distinguished:",
+      "Temporary cookies (also: session cookies): Temporary cookies are deleted at the latest after a user has left an online offering and closed their end device (e.g. browser or mobile application).",
+      "Permanent cookies: Permanent cookies remain stored even after the end device is closed. For example, the login status can be stored or preferred content can be displayed directly when the user visits a website again. Likewise, the user data collected with the help of cookies can be used for reach measurement. Insofar as we do not provide users with explicit information on the type and storage period of cookies (e.g. when obtaining consent), users should assume that cookies are permanent and that the storage period can be up to two years.",
+      "General notes on revocation and objection (opt-out): Users can revoke the consents they have given at any time and also object to the processing in accordance with the legal requirements in Art. 21 GDPR. Users can also declare their objection via the settings of their browser, e.g. by deactivating the use of cookies (whereby this may also restrict the functionality of our online services). An objection to the use of cookies for online marketing purposes can also be declared via the websites https://optout.aboutads.info and https://www.youronlinechoices.com/.",
+      "Further notes on processing operations, procedures and services:",
+      "Processing of cookie data on the basis of consent: We use a cookie consent management procedure, within the framework of which the consents of users to the use of cookies, or the processing operations and providers named within the cookie consent management procedure, can be obtained as well as managed and revoked by users. The declaration of consent is stored so that it does not have to be requested again and so that the consent can be proven in accordance with the legal obligation. Storage can take place on the server side and/or in a cookie (so-called opt-in cookie, or with the help of comparable technologies) in order to be able to assign the consent to a user or their device. Subject to individual information about the providers of cookie management services, the following notes apply: The duration of the storage of the consent can be up to two years. A pseudonymous user identifier is formed and stored with the time of consent, information on the scope of the consent (e.g. which categories of cookies and/or service providers) as well as the browser, system and end device used.",
+    ],
+  },
+  {
+    h: "Business services",
+    p: [
+      "We process data of our contractual and business partners, e.g. customers and interested parties (collectively referred to as “contractual partners”), within the framework of contractual and comparable legal relationships and associated measures, and within the framework of communication with the contractual partners (or pre-contractually), e.g. to answer enquiries.",
+      "We process this data to fulfil our contractual obligations. This includes in particular the obligations to provide the agreed services, any update obligations and remedy in the event of warranty and other performance disruptions. In addition, we process the data to safeguard our rights and for the purpose of the administrative tasks associated with these obligations, as well as the organisation of the company. Furthermore, we process the data on the basis of our legitimate interests in proper and commercial business management, as well as in security measures to protect our contractual partners and our business operations from misuse, threats to their data, secrets, information and rights (e.g. for the involvement of telecommunications, transport and other auxiliary services as well as subcontractors, banks, tax and legal advisors, payment service providers or tax authorities). Within the scope of applicable law, we only pass on the data of contractual partners to third parties insofar as this is necessary for the aforementioned purposes or to fulfil legal obligations. Contractual partners are informed about further forms of processing, e.g. for marketing purposes, within the framework of this privacy policy.",
+      "We inform the contractual partners which data is required for the aforementioned purposes before or in the course of data collection, e.g. in online forms, by means of special marking (e.g. colours) or symbols (e.g. asterisks or similar), or in person.",
+      "We delete the data after expiry of statutory warranty and comparable obligations, i.e. in principle after 4 years, unless the data is stored in a customer account, e.g. as long as it must be retained for legal reasons of archiving. The statutory retention period for tax-relevant documents as well as for commercial books, inventories, opening balance sheets, annual financial statements, the work instructions and other organisational documents required to understand these documents and accounting vouchers is ten years, and for received commercial and business letters and reproductions of the dispatched commercial and business letters six years. The period begins with the end of the calendar year in which the last entry was made in the book, the inventory, opening balance sheet, annual financial statement or management report was drawn up, the commercial or business letter was received or dispatched, or the accounting voucher was created, and also in which the record was made or the other documents were created.",
+      "Insofar as we use third-party providers or platforms to provide our services, the terms and conditions and data protection notices of the respective third-party providers or platforms apply in the relationship between the users and the providers.",
+      "Types of data processed: inventory data (e.g. names, addresses); payment data (e.g. bank details, invoices, payment history); contact data (e.g. email, telephone numbers); contract data (e.g. subject matter of the contract, term, customer category); usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: customers; interested parties; business and contractual partners.",
+      "Purposes of processing: provision of contractual services and customer service; security measures; contact requests and communication; office and organisational procedures; management and response to enquiries.",
+      "Legal bases: performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR); legal obligation (Art. 6 para. 1 sentence 1 lit. c) GDPR); legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Further notes on processing operations, procedures and services:",
+      "Customer account: Contractual partners can create an account within our online offering (e.g. customer or user account, “customer account” for short). If the registration of a customer account is required, contractual partners are informed of this as well as of the information required for registration. The customer accounts are not public and cannot be indexed by search engines. Within the framework of registration and subsequent logins and use of the customer account, we store the IP addresses of the customers along with the access times in order to be able to prove the registration and to prevent any misuse of the customer account. If customers have terminated their customer account, the data relating to the customer account is deleted, subject to its retention being required for legal reasons. It is incumbent on customers to secure their data upon termination of the customer account; legal bases: performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR).",
+      "Shop and e-commerce: We process the data of our customers in order to enable them to select, purchase or order the chosen products, goods and associated services, as well as their payment and delivery or execution. Insofar as necessary for the execution of an order, we use service providers, in particular postal, freight and shipping companies, to carry out the delivery or execution vis-à-vis our customers. For the handling of the payment transactions, we use the services of banks and payment service providers. The required information is marked as such within the framework of the order or comparable purchase process and includes the information required for delivery or provision and billing as well as contact information in order to be able to hold any consultation; legal bases: performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR).",
+    ],
+  },
+  {
+    h: "Providers and services used in the course of business",
+    p: [
+      "In the course of our business activities, we use, in compliance with the legal requirements, additional services, platforms, interfaces or plug-ins from third-party providers (“services” for short). Their use is based on our interests in the proper, lawful and economic management of our business operations and our organisational measures.",
+      "Types of data processed: inventory data (e.g. names, addresses); payment data (e.g. bank details, invoices, payment history); contact data (e.g. email, telephone numbers); content data (e.g. entries in online forms); contract data (e.g. subject matter of the contract, term, customer category).",
+      "Data subjects: customers; interested parties; users (e.g. website visitors, users of online services); business and contractual partners.",
+      "Purposes of processing: provision of contractual services and customer service; office and organisational procedures.",
+      "Legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Provision of the online offering and web hosting",
+    p: [
+      "We process the data of users in order to be able to provide them with our online services. For this purpose, we process the IP address of the user, which is necessary in order to transmit the content and functions of our online services to the browser or end device of the users.",
+      "Types of data processed: usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status); content data (e.g. entries in online forms).",
+      "Data subjects: users (e.g. website visitors, users of online services).",
+      "Purposes of processing: provision of our online offering and user-friendliness; information technology infrastructure (operation and provision of information systems and technical devices (computers, servers, etc.)); security measures.",
+      "Legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Further notes on processing operations, procedures and services:",
+      "Collection of access data and log files: Access to our online offering is logged in the form of so-called “server log files”. The server log files may include the address and name of the accessed web pages and files, the date and time of access, the transferred data volumes, notification of successful access, browser type and version, the operating system of the user, the referrer URL (the previously visited page) and, as a rule, IP addresses and the requesting provider. The server log files can be used, on the one hand, for security purposes, e.g. to avoid overloading the servers (in particular in the case of abusive attacks, so-called DDoS attacks) and, on the other hand, to ensure the utilisation of the servers and their stability; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR); deletion of data: log file information is stored for a maximum of 30 days and then deleted or anonymised. Data whose further retention is required for evidentiary purposes is excluded from deletion until the respective incident has been finally clarified.",
+      "Email dispatch and hosting: The web hosting services we use also include the dispatch, receipt and storage of emails. For these purposes, the addresses of the recipients and senders as well as further information concerning the email dispatch (e.g. the providers involved) and the contents of the respective emails are processed. The aforementioned data may also be processed for the purposes of detecting SPAM. Please note that emails on the internet are generally not sent in encrypted form. As a rule, emails are encrypted in transit, but (unless a so-called end-to-end encryption procedure is used) not on the servers from which they are sent and received. We can therefore not assume any responsibility for the transmission path of the emails between the sender and receipt on our server; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Content delivery network: We use a “content delivery network” (CDN). A CDN is a service with the help of which the content of an online offering, in particular large media files such as graphics or program scripts, can be delivered more quickly and securely with the help of regionally distributed servers connected via the internet; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Blogs and publication media",
+    p: [
+      "We use blogs or comparable means of online communication and publication (hereinafter “publication medium”). The data of readers is processed for the purposes of the publication medium only insofar as it is necessary for its presentation and the communication between authors and readers or for reasons of security. Otherwise, we refer to the information on the processing of visitors to our publication medium within the framework of these data protection notices.",
+      "Types of data processed: inventory data (e.g. names, addresses); contact data (e.g. email, telephone numbers); content data (e.g. entries in online forms); usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: users (e.g. website visitors, users of online services).",
+      "Purposes of processing: provision of contractual services and customer service; feedback (e.g. collecting feedback via online form); provision of our online offering and user-friendliness.",
+      "Legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Contact and enquiry management",
+    p: [
+      "When contacting us (e.g. by post, contact form, email, telephone or via social media) as well as within the framework of existing user and business relationships, the information of the enquiring persons is processed insofar as this is necessary to respond to the contact enquiries and any requested measures.",
+      "Types of data processed: contact data (e.g. email, telephone numbers); content data (e.g. entries in online forms); usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: communication partners.",
+      "Purposes of processing: contact requests and communication; management and response to enquiries; feedback (e.g. collecting feedback via online form); provision of our online offering and user-friendliness.",
+      "Legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR); performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR).",
+      "Further notes on processing operations, procedures and services:",
+      "Contact form: When users contact us via our contact form, email or other communication channels, we process the data communicated to us in this context to process the communicated concern; legal bases: performance of a contract and pre-contractual enquiries (Art. 6 para. 1 sentence 1 lit. b) GDPR), legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Promotional communication via email, post, fax or telephone",
+    p: [
+      "We process personal data for the purposes of promotional communication, which can take place via various channels, such as email, telephone, post or fax, in accordance with the legal requirements.",
+      "Recipients have the right to revoke consent granted at any time or to object to promotional communication at any time.",
+      "After revocation or objection, we store the data required to prove the previous authorisation for contact or dispatch for up to three years after the end of the year of the revocation or objection on the basis of our legitimate interests. The processing of this data is limited to the purpose of a possible defence against claims. On the basis of the legitimate interest in permanently observing the revocation or objection of users, we also store the data required to avoid renewed contact (e.g. depending on the communication channel, the email address, telephone number, name).",
+      "Types of data processed: inventory data (e.g. names, addresses); contact data (e.g. email, telephone numbers).",
+      "Data subjects: communication partners.",
+      "Purposes of processing: direct marketing (e.g. by email or post).",
+      "Legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Web analytics, monitoring and optimisation",
+    p: [
+      "Web analytics (also referred to as “reach measurement”) serves to evaluate the visitor flows of our online offering and may include behaviour, interests or demographic information about visitors, such as age or gender, as pseudonymous values. With the help of reach analysis, we can, for example, recognise at what time our online offering or its functions or content are used most frequently or invite reuse. Likewise, we can understand which areas require optimisation.",
+      "In addition to web analytics, we may also use test procedures, e.g. to test and optimise different versions of our online offering or its components.",
+      "Unless otherwise stated below, for these purposes profiles, i.e. data combined into a usage process, may be created and information may be stored in a browser or an end device and read from it. The collected information includes in particular websites visited and elements used there, as well as technical information such as the browser used, the computer system used and information on usage times. If users have declared their consent to the collection of their location data to us or to the providers of the services we use, location data may also be processed.",
+      "The IP addresses of the users are also stored. However, we use an IP masking procedure (i.e. pseudonymisation by shortening the IP address) to protect users. In general, no clear data of the users (such as email addresses or names) is stored within the framework of web analytics, A/B testing and optimisation, but pseudonyms. This means that we as well as the providers of the software used do not know the actual identity of the users, but only the information stored in their profiles for the purposes of the respective procedures.",
+      "Types of data processed: usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: users (e.g. website visitors, users of online services).",
+      "Purposes of processing: reach measurement (e.g. access statistics, recognition of returning visitors); profiles with user-related information (creating user profiles); tracking (e.g. interest/behaviour-related profiling, use of cookies); provision of our online offering and user-friendliness.",
+      "Security measures: IP masking (pseudonymisation of the IP address).",
+      "Legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR).",
+      "Further notes on processing operations, procedures and services:",
+      "Google Analytics: web analytics, reach measurement and measurement of user flows; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); website: https://marketingplatform.google.com/intl/de/about/analytics/; privacy policy: https://policies.google.com/privacy; data processing agreement: https://business.safety.google/adsprocessorterms; standard contractual clauses (safeguarding the level of data protection for processing in third countries): https://business.safety.google/adsprocessorterms; opt-out option: opt-out plugin: https://tools.google.com/dlpage/gaoptout?hl=de, settings for the display of advertisements: https://adssettings.google.com/authenticated; further information: https://privacy.google.com/businesses/adsservices (types of processing and of the data processed).",
+      "Google Analytics 4: We use Google Analytics to measure and analyse the use of our online offering on the basis of a pseudonymous user identification number. This identification number does not contain any unique data such as names or email addresses. It serves to assign analysis information to an end device in order to recognise which content the users have accessed within one or various usage processes, which search terms they used, accessed these again or interacted with our online offering. Likewise, the time of use and its duration are stored, as well as the sources of the users referring to our online offering and technical aspects of their end devices and browsers. In doing so, pseudonymous profiles of users are created with information from the use of various devices, whereby cookies can be used. In Analytics, data on the geographical location is provided at a higher level by collecting the following metadata based on the IP lookup: “city” (and the derived latitude and longitude of the city), “continent”, “country”, “region”, “subcontinent” (and the ID-based equivalents). In order to ensure the protection of user data in the EU, Google receives and processes all user data via domains and servers within the EU. The IP address of the users is not logged and, by default, the last two digits are shortened. The shortening of the IP address takes place on EU servers for EU users. In addition, all sensitive data collected from users in the EU is deleted before it is collected via EU domains and servers; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); website: https://marketingplatform.google.com/intl/de/about/analytics/; privacy policy: https://policies.google.com/privacy; data processing agreement: https://business.safety.google/adsprocessorterms/; standard contractual clauses (safeguarding the level of data protection for processing in third countries): https://business.safety.google/adsprocessorterms; opt-out option: opt-out plugin: https://tools.google.com/dlpage/gaoptout?hl=de, settings for the display of advertisements: https://adssettings.google.com/authenticated; further information: https://privacy.google.com/businesses/adsservices (types of processing and of the data processed).",
+    ],
+  },
+  {
+    h: "Online marketing",
+    p: [
+      "We process personal data for the purposes of online marketing, which can include in particular the marketing of advertising space or the display of advertising and other content (collectively referred to as “content”) based on the potential interests of users, as well as the measurement of their effectiveness.",
+      "For these purposes, so-called user profiles are created and stored in a file (so-called “cookie”), or similar procedures are used, by means of which the information about the user relevant for the display of the aforementioned content is stored. This information may include, for example, content viewed, websites visited, online networks used, but also communication partners and technical information such as the browser used, the computer system used and information on usage times and functions used. If users have consented to the collection of their location data, this may also be processed.",
+      "The IP addresses of the users are also stored. However, we use available IP masking procedures (i.e. pseudonymisation by shortening the IP address) to protect users. In general, no clear data of the users (such as email addresses or names) is stored within the framework of the online marketing procedure, but pseudonyms. This means that we as well as the providers of the online marketing procedures do not know the actual identity of the users, but only the information stored in their profiles.",
+      "The information in the profiles is generally stored in the cookies or by means of similar procedures. These cookies can later generally also be read on other websites that use the same online marketing procedure, and analysed for the purposes of displaying content as well as supplemented with further data and stored on the server of the online marketing procedure provider.",
+      "In exceptional cases, clear data can be assigned to the profiles. This is the case if, for example, the users are members of a social network whose online marketing procedure we use and the network connects the profiles of the users with the aforementioned information. Please note that users can make additional agreements with the providers, e.g. by consent within the framework of registration.",
+      "In principle, we only gain access to summarised information about the success of our advertisements. However, within the framework of so-called conversion measurements, we can check which of our online marketing procedures have led to a so-called conversion, i.e. for example to a conclusion of a contract with us. Conversion measurement is used solely to analyse the success of our marketing measures.",
+      "Unless otherwise stated, we ask you to assume that cookies used are stored for a period of two years.",
+      "Types of data processed: usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: users (e.g. website visitors, users of online services).",
+      "Purposes of processing: reach measurement (e.g. access statistics, recognition of returning visitors); tracking (e.g. interest/behaviour-related profiling, use of cookies); marketing; profiles with user-related information (creating user profiles); conversion measurement (measuring the effectiveness of marketing measures).",
+      "Security measures: IP masking (pseudonymisation of the IP address).",
+      "Legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Opt-out option: We refer to the data protection notices of the respective providers and the opt-out options specified for the providers (so-called “opt-out”). If no explicit opt-out option has been specified, there is, on the one hand, the possibility that you switch off cookies in the settings of your browser. However, this may restrict functions of our online offering. We therefore additionally recommend the following opt-out options, which are offered collectively for the respective areas: a) Europe: https://www.youronlinechoices.eu. b) Canada: https://www.youradchoices.ca/choices. c) USA: https://www.aboutads.info/choices. d) cross-area: https://optout.aboutads.info.",
+      "Further notes on processing operations, procedures and services:",
+      "Google Ads and conversion measurement: Online marketing procedure for the purpose of placing content and advertisements within the advertising network of the service provider (e.g. in search results, in videos, on websites, etc.) so that they are displayed to users who have a presumed interest in the advertisements. In addition, we measure the conversion of the advertisements, i.e. whether the users took them as an occasion to interact with the advertisements and use the advertised offers (so-called conversion). However, we only receive anonymous information and no personal information about individual users; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR), legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR); website: https://marketingplatform.google.com; privacy policy: https://policies.google.com/privacy; further information: types of processing and of the data processed: https://privacy.google.com/businesses/adsservices; data processing terms between controllers and standard contractual clauses for third-country transfers of data: https://business.safety.google/adscontrollerterms.",
+      "Google AdSense with personalised advertisements: We use the Google AdSense service with personalised advertisements, with the help of which advertisements are displayed within our online offering and we receive remuneration for their display or other use; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); website: https://marketingplatform.google.com; privacy policy: https://policies.google.com/privacy; further information: types of processing and of the data processed: https://privacy.google.com/businesses/adsservices; data processing terms between controllers and standard contractual clauses for third-country transfers of data: https://business.safety.google/adscontrollerterms.",
+      "Google AdSense with non-personalised advertisements: We use the Google AdSense service with non-personalised advertisements, with the help of which advertisements are displayed within our online offering and we receive remuneration for their display or other use; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: consent (Art. 6 para. 1 sentence 1 lit. a) GDPR); website: https://marketingplatform.google.com; privacy policy: https://policies.google.com/privacy; further information: types of processing and of the data processed: https://privacy.google.com/businesses/adsservices; data processing terms between controllers and standard contractual clauses for third-country transfers of data: https://business.safety.google/adscontrollerterms.",
+    ],
+  },
+  {
+    h: "Plugins and embedded functions and content",
+    p: [
+      "We integrate functional and content elements into our online offering that are obtained from the servers of their respective providers (hereinafter referred to as “third-party providers”). These can be, for example, graphics, videos or city maps (hereinafter uniformly referred to as “content”).",
+      "The integration always requires that the third-party providers of this content process the IP address of the users, since without the IP address they could not send the content to their browser. The IP address is thus necessary for the display of this content or functions. We endeavour to use only such content whose respective providers use the IP address solely to deliver the content. Third-party providers may also use so-called pixel tags (invisible graphics, also referred to as “web beacons”) for statistical or marketing purposes. The “pixel tags” can be used to evaluate information such as visitor traffic on the pages of this website. The pseudonymous information may also be stored in cookies on the user’s device and, among other things, contain technical information about the browser and operating system, referring websites, visit time and further information on the use of our online offering, as well as be linked with such information from other sources.",
+      "Types of data processed: usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, timestamps, identification numbers, consent status).",
+      "Data subjects: users (e.g. website visitors, users of online services).",
+      "Purposes of processing: provision of our online offering and user-friendliness.",
+      "Legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Further notes on processing operations, procedures and services:",
+      "Integration of third-party software, scripts or frameworks (e.g. jQuery): We integrate into our online offering software that we retrieve from the servers of other providers (e.g. function libraries that we use for the display or user-friendliness of our online offering). In doing so, the respective providers collect the IP address of the users and can process it for the purposes of transmitting the software to the browser of the users, as well as for the purposes of security, and to evaluate and optimise their offering; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+      "Google Fonts (obtained from the Google server): Obtaining fonts (and symbols) for the purpose of a technically secure, maintenance-free and efficient use of fonts and symbols with regard to timeliness and loading times, their uniform display and consideration of possible licensing restrictions. The provider of the fonts is informed of the IP address of the user so that the fonts can be made available in the browser of the user. In addition, technical data (language settings, screen resolution, operating system, hardware used) are transmitted that are necessary for the provision of the fonts depending on the devices used and the technical environment. This data may be processed on a server of the provider of the fonts in the USA. When visiting our online offering, the browsers of the users send their browser HTTP requests to the Google Fonts Web API (i.e. a software interface for retrieving the fonts). The Google Fonts Web API provides users with the Cascading Style Sheets (CSS) of Google Fonts and thereafter the fonts specified in the CSS. These HTTP requests include (1) the IP address used by the respective user to access the internet, (2) the requested URL on the Google server and (3) the HTTP headers, including the user agent, which describes the browser and operating system versions of the website visitors, as well as the referrer URL (i.e. the web page on which the Google font is to be displayed). IP addresses are neither logged nor stored on Google servers and they are not analysed. The Google Fonts Web API logs details of the HTTP requests (requested URL, user agent and referrer URL). Access to this data is restricted and strictly controlled. The requested URL identifies the font families for which the user wants to load fonts. This data is logged so that Google can determine how often a particular font family is requested. With the Google Fonts Web API, the user agent must adapt the font that is generated for the respective browser type. The user agent is primarily logged for debugging and used to generate aggregated usage statistics that measure the popularity of font families. These aggregated usage statistics are published on the “Analytics” page of Google Fonts. Finally, the referrer URL is logged so that the data can be used for the maintenance of production and an aggregated report on the top integrations based on the number of font requests can be generated. According to its own information, Google does not use any of the information collected by Google Fonts to create profiles of end users or to serve targeted advertisements; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR); website: https://fonts.google.com/; privacy policy: https://policies.google.com/privacy; further information: https://developers.google.com/fonts/faq/privacy?hl=de.",
+      "Font Awesome (provided on our own server): display of fonts and symbols; service provider: the Font Awesome Icons are hosted on our server, no data is transmitted to the provider of Font Awesome; legal bases: legitimate interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+    ],
+  },
+  {
+    h: "Amendment and update of the privacy policy",
+    p: [
+      "We ask you to regularly inform yourself about the content of our privacy policy. We adapt the privacy policy as soon as changes to the data processing carried out by us make this necessary. We will inform you as soon as the changes require an act of cooperation on your part (e.g. consent) or other individual notification.",
+      "Insofar as we provide addresses and contact information of companies and organisations in this privacy policy, please note that the addresses may change over time and please check the information before making contact.",
+    ],
+  },
+  {
+    h: "Rights of data subjects",
+    p: [
+      "As a data subject, you are entitled to various rights under the GDPR, which arise in particular from Art. 15 to 21 GDPR:",
+      "Right to object: You have the right, on grounds relating to your particular situation, to object at any time to the processing of the personal data concerning you which is based on Art. 6 para. 1 lit. e or f GDPR; this also applies to profiling based on these provisions. If the personal data concerning you is processed for direct marketing purposes, you have the right to object at any time to the processing of the personal data concerning you for the purpose of such advertising; this also applies to profiling insofar as it is connected with such direct marketing.",
+      "Right to withdraw consent: You have the right to withdraw consent granted at any time.",
+      "Right of access: You have the right to request confirmation as to whether data concerning you is being processed and to obtain access to this data as well as further information and a copy of the data in accordance with the legal requirements.",
+      "Right to rectification: You have the right, in accordance with the legal requirements, to request the completion of the data concerning you or the rectification of the incorrect data concerning you.",
+      "Right to erasure and restriction of processing: You have the right, in accordance with the legal requirements, to request that data concerning you be deleted without delay, or alternatively, in accordance with the legal requirements, to request a restriction of the processing of the data.",
+      "Right to data portability: You have the right to receive data concerning you that you have provided to us in a structured, commonly used and machine-readable format in accordance with the legal requirements, or to request its transmission to another controller.",
+      "Complaint to a supervisory authority: Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work or place of the alleged infringement, if you consider that the processing of the personal data concerning you infringes the requirements of the GDPR.",
+    ],
+  },
+];
+
+export const widerruf: LegalSection[] = [
+  {
+    h: "Right of withdrawal of Fortis Inkasso GmbH & Co. KG",
+    p: ["Here you can find our privacy policy."],
+  },
+  {
+    h: "Right of withdrawal",
+    p: [
+      "You have the right to withdraw from this contract within fourteen days without giving any reason.",
+      "The withdrawal period is fourteen days from the day of conclusion of the contract.",
+      "In order to exercise your right of withdrawal, you must inform us (Fortis Inkasso GmbH & Co. KG, Gehrtsstrasse 16, 40235 Düsseldorf, email: info@fortis-inkasso.de) of your decision to withdraw from this contract by means of a clear declaration (e.g. a letter sent by post or an email).",
+      "In order to comply with the withdrawal period, it is sufficient that you send the notification of the exercise of the right of withdrawal before the withdrawal period expires.",
+      "The user requests that we begin providing the services immediately after registration (before the expiry of a statutory withdrawal period).",
+      "The user acknowledges that their statutory right of withdrawal as a consumer may lapse after the service has been fully provided (and/or that they may have to pay a proportionate amount if they withdraw after the provision of the service has begun).",
+      "Consequences of withdrawal",
+      "If you withdraw from this contract, we shall reimburse you all payments we have received from you, including the delivery costs (with the exception of the additional costs arising from your choice of a type of delivery other than the cheapest standard delivery offered by us), without delay and at the latest within fourteen days from the day on which we received notification of your withdrawal from this contract. For this repayment, we use the same means of payment that you used for the original transaction, unless expressly agreed otherwise with you; in no case will you be charged any fees for this repayment.",
+    ],
+  },
+];

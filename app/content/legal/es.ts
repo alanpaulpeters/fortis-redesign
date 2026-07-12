@@ -1,0 +1,455 @@
+// Textos legales, traducción al español de los originales en alemán.
+// NOTA: Traducción fiel con fines informativos. La versión alemana sigue siendo
+// jurídicamente vinculante; conviene que un abogado la revise antes de usarla.
+import type { LegalSection } from "./types";
+
+export const impressum: LegalSection[] = [
+  {
+    h: "Datos:",
+    p: [
+      "Fortis Inkasso GmbH & Co. KG",
+      "Gehrtsstraße 16",
+      "40235 Düsseldorf / Alemania",
+      "M +49 211 15856110",
+      "Email. info@fortis-inkasso.de",
+      "Web.  www.fortis-inkasso.de",
+      "Domicilio social: Düsseldorf",
+      "N.º de registro: HRA 27149",
+      "N.º de IVA: DE368251884",
+      "Autoridad de supervisión:",
+      "Oficina Federal de Justicia (Bundesamt für Justiz)",
+      "Adenauerallee 99 – 103",
+      "53113 Bonn",
+      "Alemania",
+      "Director general: Fortis Verwaltungs GmbH",
+      "Exención de responsabilidad – Disclaimer:",
+      "Responsabilidad por los contenidos",
+      "Todos los contenidos de nuestro sitio web han sido elaborados con el mayor cuidado y según nuestro leal saber y entender. No obstante, no podemos asumir ninguna garantía respecto de la exactitud, integridad y actualidad de los contenidos. Como prestador de servicios, somos responsables de nuestros propios contenidos en estas páginas conforme a las leyes generales. Sin embargo, no estamos obligados a supervisar la información ajena transmitida o almacenada, ni a investigar circunstancias que indiquen una actividad ilícita. Las obligaciones de retirar o bloquear el uso de información conforme a las leyes generales no se ven afectadas por ello.",
+      "No obstante, una responsabilidad al respecto solo es posible a partir del momento en que se tiene conocimiento de una infracción concreta. En cuanto tengamos conocimiento de las infracciones antes mencionadas, retiraremos dichos contenidos de inmediato.",
+      "Limitación de responsabilidad por enlaces externos",
+      "Nuestro sitio web contiene enlaces a sitios web externos de terceros. No tenemos ninguna influencia sobre los contenidos de estos sitios web enlazados directa o indirectamente. Por ello, tampoco podemos asumir ninguna garantía sobre la exactitud de los contenidos de los «enlaces externos». De los contenidos de los enlaces externos son responsables los respectivos proveedores u operadores (autores) de las páginas.",
+      "Los enlaces externos fueron comprobados, en el momento de su inserción, respecto de posibles infracciones legales y estaban libres de contenidos ilícitos en ese momento. Una comprobación permanente del contenido de los enlaces externos no es posible sin indicios concretos de una infracción legal. En el caso de enlaces directos o indirectos a sitios web de terceros que se encuentran fuera de nuestro ámbito de responsabilidad, solo existiría una obligación de responsabilidad en el supuesto de que tuviéramos conocimiento de los contenidos y de que nos fuera técnicamente posible y exigible impedir el uso en caso de contenidos ilícitos.",
+      "Esta exención de responsabilidad se aplica también a los enlaces y referencias establecidos dentro de nuestro propio sitio web «Nombre de su dominio» por parte de personas que formulan preguntas, autores de blogs y participantes del foro de debate. Del contenido ilegal, erróneo o incompleto y, en particular, de los daños derivados del uso o no uso de dicha información responde únicamente el prestador de servicios de la página a la que se remite, y no quien simplemente remite a la respectiva publicación mediante enlaces.",
+      "Si tenemos conocimiento de infracciones legales, los enlaces externos serán retirados por nosotros de inmediato.",
+      "Derechos de autor",
+      "Los contenidos y obras publicados en nuestro sitio web están sujetos a la legislación alemana sobre derechos de autor (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf). La reproducción, edición, distribución y todo tipo de explotación de la propiedad intelectual en sentido ideal y material del autor fuera de los límites de los derechos de autor requieren el consentimiento previo por escrito del respectivo autor en el sentido de la Ley de Derechos de Autor (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf). Las descargas y copias de esta página solo están permitidas para uso privado y no comercial. En la medida en que los contenidos de nuestro sitio web no hayan sido elaborados por nosotros, deben respetarse los derechos de autor de terceros. Los contenidos de terceros se identifican como tales. Si, no obstante, tuviera conocimiento de una infracción de los derechos de autor, le rogamos que nos lo comunique. En cuanto tengamos conocimiento de infracciones legales, retiraremos dichos contenidos de inmediato.",
+      "Obligación general de información conforme al art. 36 de la Ley alemana de resolución de litigios en materia de consumo (VSBG):",
+      "Fortis Inkasso GmbH & Co. KG no participa en ningún procedimiento de resolución de litigios en el sentido de la VSBG. No existe obligación legal alguna al respecto.",
+    ],
+  },
+];
+
+export const agb: LegalSection[] = [
+  {
+    h: "CONDICIONES GENERALES DE CONTRATACIÓN de Fortis Inkasso GmbH & Co. KG",
+    p: [],
+  },
+  {
+    h: "§ 2 Acceso; servicios estándar",
+    p: [
+      "Salvo acuerdos individuales divergentes, el cliente está facultado para presentar a través del portal de servicios cualquier número de créditos y la documentación de factura o de reclamación correspondiente, y para que sean tramitados en el marco de la gestión extrajudicial de créditos (servicios estándar).",
+      "Fortis está facultada para condicionar el acceso al portal de servicios y/o funcionalidades concretas al cumplimiento de los deberes de colaboración, al depósito de datos maestros completos y al pago puntual de las tarifas vencidas.",
+      "Fortis debe la puesta a disposición del portal de servicios en su versión vigente en cada momento, dentro de las posibilidades técnicas y operativas. No existe derecho a una disponibilidad ininterrumpida en todo momento; Fortis está facultada a realizar ventanas de mantenimiento e interrupciones por motivos técnicos.",
+      "Los datos de acceso deben mantenerse en secreto y protegerse frente al acceso de terceros. Los usos realizados con un empleo correcto de los datos de acceso se consideran, en la relación entre Fortis y el cliente, como iniciados por el cliente, salvo que este demuestre que no le es imputable culpa alguna.",
+    ],
+  },
+  {
+    h: "B. Encargo de cobro / prestación del servicio",
+    p: [],
+  },
+  {
+    h: "§ 3 Otorgamiento del encargo y objeto de la prestación",
+    p: [
+      "El otorgamiento del encargo se realiza mediante la entrega/transmisión de los datos del deudor y del crédito; no queda necesariamente concluido con la mera cumplimentación de un formulario de contacto. Todas las ofertas de Fortis son sin compromiso; en particular, las indicaciones de plazo (plazos de ejecución, etc.) son sin compromiso, salvo que su carácter vinculante se prometa expresamente.",
+      "Sin un encargo separado y remunerado, Fortis no examina las objeciones y excepciones frente al crédito que le ha sido transferido para su cobro.",
+      "La remuneración de Fortis se rige, en la medida en que resulte legalmente aplicable, por las disposiciones de la Ley de Servicios Jurídicos (RDG) y de la Ley de Remuneración de Abogados (RVG). Para el carácter resarcible frente al deudor se aplican las disposiciones legales, en particular el art. 13e RDG; en el caso de un encargo combinado de prestador de servicios de cobro y abogado, se aplica además el art. 13f RDG. En la medida en que Fortis reclame al deudor costes, honorarios, gastos o accesorios, ello se hace únicamente en la medida legalmente admisible.",
+      "Los costes ajenos y desembolsos, en particular las costas judiciales y de agente judicial, consultas registrales, consultas al padrón, costes de agencias de detectives y de autoridades, notificaciones, traducciones, costes de cobro en el extranjero, así como los costes de abogados/despachos asociados encargados, corren a cargo del cliente en la medida en que no puedan realizarse frente al deudor o hayan sido anticipados por Fortis. Fortis está facultada para exigir, antes de ejecutar la respectiva medida, un anticipo adecuado por los costes ajenos y desembolsos incurridos o previsiblemente incurridos, o la puesta a disposición inmediata de los importes concretamente solicitados.",
+      "Fortis está facultada para adoptar todas las medidas que sean útiles para el cobro del crédito. Fortis puede pactar con los deudores pagos a plazos y aplazamientos, aceptar pagos y —en la medida en que sea legalmente admisible y conveniente— celebrar acuerdos y condonaciones respecto del crédito principal, los accesorios y los costes.",
+      "Si las gestiones extrajudiciales de cobro no tienen éxito o si parece conveniente una persecución judicial, Fortis inicia un procedimiento monitorio judicial, solicita un mandamiento de ejecución o promueve otras medidas judiciales únicamente sobre la base de un encargo separado. Las medidas judiciales solo se inician tras la provisión de las costas judiciales, desembolsos y anticipos solicitados. La remuneración de Fortis por el procedimiento monitorio, el mandamiento de ejecución, la ejecución forzosa y otras medidas judiciales vence, frente al cliente, a más tardar con la presentación/solicitud de la respectiva medida. En caso de oposición, recurso o tramitación contenciosa, Fortis está facultada, previo acuerdo separado, para recurrir a un abogado o a un despacho asociado; la correspondiente relación contractual se establece a tal efecto directamente entre el cliente y el abogado, salvo que se acuerde expresamente otra cosa.",
+    ],
+  },
+  {
+    h: "§ 4 Remuneración en el procedimiento extrajudicial; bases jurídicas; carácter de éxito; intereses de demora",
+    p: [
+      "Este § 4 contiene el acuerdo de remuneración para los servicios extrajudiciales de cobro de Fortis.",
+      "Por la tramitación extrajudicial de un crédito, el cliente debe una remuneración exclusivamente en caso de éxito. Existe éxito tan pronto como sobre el crédito transferido o sobre accesorios se produzcan, total o parcialmente, pagos, pagos parciales, compensaciones, abonos, importes de acuerdo, ingresos por garantías u otras realizaciones económicas; los pagos directos del deudor al cliente equivalen a un éxito.",
+      "En caso de éxito, la remuneración de Fortis en función del éxito se calcula con arreglo a la remuneración legal que correspondería a un abogado por la concreta actividad extrajudicial conforme a la RVG, incluidos los desembolsos legalmente admisibles y el impuesto sobre el valor añadido, en la medida en que se devengue. La remuneración vence en cada caso únicamente en la medida en que, y tan pronto como, existan realizaciones económicas. Fortis está facultada para cubrir, compensar y retener la remuneración vencida a partir de los importes recibidos o realizados en el marco de la liquidación conjunta conforme al § 6. Sin éxito, no se devenga remuneración alguna por la actividad extrajudicial de cobro.",
+      "En la medida en que el deudor pague a Fortis o al cliente costes de cobro, desembolsos u otros accesorios imputables a la actividad extrajudicial, estos se imputan a los derechos de remuneración de Fortis. Fortis está facultada para cobrar, retener y/o compensar dichos importes en el marco de la liquidación conjunta.",
+      "El cliente cede por la presente a Fortis —en la medida en que sea legalmente admisible— todos los derechos de reembolso de los costes de cobro, así como todos los derechos al pago de intereses de demora derivados de los créditos presentados ante Fortis; Fortis acepta la cesión. En la medida en que se realicen intereses de demora, corresponden a Fortis como componente adicional de remuneración en función del éxito y no deben abonarse al cliente.",
+      "Este acuerdo de remuneración se refiere exclusivamente a la actividad extrajudicial de cobro. Las costas judiciales, los costes de agente judicial, los costes del procedimiento monitorio judicial, los costes de un mandamiento de ejecución, los costes de la ejecución forzosa, los costes de abogados/despachos asociados encargados, así como otros costes ajenos y desembolsos, no quedan comprendidos y deben ser soportados por separado por el cliente conforme a estas Condiciones Generales o anticipados a requerimiento.",
+      "El acuerdo de honorarios en función del éxito se basa, en particular, en el riesgo de impago y de cobro, en el esfuerzo de prefinanciación y tramitación de Fortis, en la incierta realizabilidad de los costes frente al deudor en el caso concreto, así como en el interés del cliente en no adeudar remuneración alguna por actividades extrajudiciales infructuosas.",
+      "En caso de terminación anticipada del encargo antes de que se produzca un éxito, no se devenga remuneración en función del éxito por la actividad extrajudicial prestada hasta ese momento. No obstante, si tras la terminación del encargo aún se producen pagos u otras realizaciones económicas sobre la base de un acuerdo de pago, de pago a plazos o de transacción iniciado o celebrado por Fortis durante la vigencia del contrato, o sobre la base de otras medidas iniciadas por Fortis, la remuneración en función del éxito conforme a los apartados anteriores sigue siendo debida.",
+      "No se acuerda un honorario en función del éxito en la medida en que el servicio de cobro se refiera a un crédito no sujeto a embargo.",
+      "Nota: Frente al deudor, los costes de cobro solo son resarcibles hasta el importe de la remuneración que correspondería a un abogado conforme a la RVG.",
+    ],
+  },
+  {
+    h: "§ 5 Deberes de colaboración del cliente",
+    p: [
+      "Durante la vigencia del encargo, el crédito no podrá ser tramitado por el cliente ni directa ni indirectamente. En particular, el cliente no podrá entregar la documentación del crédito, de forma simultánea o posterior al otorgamiento del encargo, ni a un abogado ni a otra empresa de cobro con el fin de su examen y reclamación. El cliente cesa asimismo todas sus propias gestiones de cobro frente al deudor. Solo se aplicará otra cosa si se ha alcanzado un acuerdo a tal efecto con Fortis.",
+      "El cliente se obliga a apoyar a Fortis en la ejecución del encargo y, en particular, tras el otorgamiento del encargo, a abstenerse de todo contacto relativo al crédito controvertido con el deudor, es decir, a no seguir manteniendo correspondencia ni negociando con él y a no iniciar acciones judiciales propias, salvo que se haya acordado expresamente otra cosa.",
+      "Los ingresos de pagos, pagos parciales, compensaciones, abonos, realizaciones de garantías, acuerdos de pago a plazos o de transacción, así como otros sucesos que afecten a la realización del crédito, deben comunicarse a Fortis sin demora. Esto se aplica también a los pagos directos del deudor al cliente. Dichos pagos directos se consideran, en la relación entre el cliente y Fortis, una realización económica y pueden ser tenidos en cuenta, liquidados y compensados por Fortis en el marco de la liquidación conjunta.",
+      "El cliente responde frente a Fortis de la existencia jurídica del crédito transferido para su cobro y de las consecuencias de indicaciones incompletas o incorrectas. Si, a causa de dichas indicaciones incompletas o incorrectas, terceros formulan reclamaciones de indemnización frente a Fortis, el cliente exime a Fortis de dichas reclamaciones.",
+    ],
+  },
+  {
+    h: "§ 6 Orden de imputación; liquidación conjunta; compensación; cesión",
+    p: [
+      "En la medida en que el deudor adeude varios créditos, la extinción de los créditos individuales se rige, en primer lugar, por una determinación de imputación eficaz del deudor y, en lo demás, por las disposiciones legales. Dentro del respectivo crédito afectado, los pagos recibidos se imputan —en la medida legalmente admisible— primero a los costes, después a los intereses y por último al crédito principal.",
+      "Fortis está facultada para llevar una cuenta interna de mandante para cada cliente. En ella se registran de forma consolidada todas las posiciones derivadas de la relación contractual, en particular los derechos de remuneración de Fortis, los costes ajenos anticipados y solicitados, las costas judiciales, los costes de agente judicial, los costes de abogados/despachos asociados encargados, los desembolsos, los derechos de reembolso de costes, los intereses de demora, las partes del crédito principal, los abonos, los cargos de devolución y otras posiciones de saldo.",
+      "Todos los pagos, pagos parciales, abonos, compensaciones, importes de acuerdo, realizaciones de garantías u otras realizaciones económicas recibidos por Fortis o directamente por el cliente, procedentes de todos los asuntos de créditos del mismo cliente tramitados por Fortis, se registran en primer lugar en la cuenta de mandante.",
+      "Fortis está facultada, en la medida en que sea legalmente admisible, en el marco de una liquidación conjunta que abarque varios asuntos, a compensar todos los derechos vencidos existentes frente al cliente derivados de todos los encargos de cobro —cualquiera que sea su fundamento jurídico y también de asuntos tramitados en paralelo o de forma escalonada en el tiempo— con eventuales derechos de abono del cliente, y/o a ejercer un derecho de retención hasta la compensación. Ello comprende, en particular, los derechos de remuneración en función del éxito, los intereses de demora cedidos, los costes ajenos anticipados o solicitados, las tasas judiciales, los costes del procedimiento monitorio, los costes de la ejecución forzosa, los costes de abogados/despachos asociados encargados, los costes de devolución de domiciliaciones y otros desembolsos.",
+      "En la medida en que no se opongan requisitos legales imperativos, determinaciones de imputación eficaces del deudor o derechos preferentes de terceros, Fortis está facultada para efectuar la asignación contable y la compensación de los pagos recibidos a posiciones individuales de la cuenta de mandante según su justo criterio.",
+      "La respectiva liquidación conjunta, liquidación individual u otra declaración de compensación en forma de texto vale al mismo tiempo como declaración de compensación. Un derecho de abono del cliente solo nace en la medida en que, y tan pronto como, tras el registro y la compensación completos de todos los derechos vencidos de Fortis, quede un saldo positivo a favor del cliente y ya no existan retenciones justificadas por plazos de cargo de devolución, de reclamación, de oposición o de aclaración, por costes ajenos en curso u otros riesgos de honorarios/costes.",
+      "En la medida en que, tras cesión, compensación, imputación o en virtud de un derecho de retención, los importes correspondan a Fortis, no se trata de fondos ajenos a abonar al cliente. En lo demás, los fondos ajenos se tratan conforme a las disposiciones legales. Los importes de fondos ajenos no devengan intereses.",
+      "Según el medio de pago con el que se efectúe un pago, Fortis puede diferir la liquidación de una parte de fondos ajenos contenida en él hasta el vencimiento de los plazos habituales de cargo de devolución, chargeback u oposición.",
+      "Una compensación por parte del cliente solo es admisible con contracréditos incontrovertidos o declarados firmes.",
+    ],
+  },
+  {
+    h: "§ 7 Terminación de encargos de cobro individuales; derecho de retención",
+    p: [
+      "Cada encargo de cobro puede ser rescindido por el cliente en cualquier momento en forma de texto. En caso de rescisión u otra terminación, permanecen inalteradas las remuneraciones en función del éxito vencidas hasta ese momento conforme al § 4 (incluidos los componentes de remuneración que venzan posteriormente conforme al § 4, apdo. 8), los costes ajenos anticipados o solicitados, las costas judiciales, los costes de medidas judiciales, los costes de la ejecución forzosa, los costes de abogados/despachos asociados encargados y otros desembolsos.",
+      "La rescisión u otra terminación requiere la forma de texto (basta el correo electrónico), salvo que imperativamente se prescriba una forma más estricta.",
+      "Respecto de la documentación de ejecución, incluido el título ejecutivo, existe un derecho de retención hasta el pago por el cliente de los costes devengados y facturados.",
+      "Fortis está facultada para rescindir la relación de encargo si el cliente, tras el otorgamiento del encargo, negocia por su cuenta con el deudor sin el consentimiento de Fortis o sigue actuando contra él. Si el cliente no responde a las consultas de Fortis durante más de un mes y tras un doble requerimiento, Fortis puede rescindir el encargo. Los derechos ya vencidos de Fortis, así como los costes y desembolsos anticipados o solicitados, permanecen vigentes en estos casos.",
+    ],
+  },
+  {
+    h: "§ 8 Confidencialidad",
+    p: [
+      "Fortis y el cliente están obligados recíprocamente a tratar de forma estrictamente confidencial toda la información y documentación obtenida en relación con la ejecución del encargo. Esto se aplica también tras la terminación.",
+    ],
+  },
+  {
+    h: "§ 9 Protección de datos",
+    p: [
+      "En el marco de la legislación aplicable en materia de protección de datos, Fortis está facultada para recabar, tratar, utilizar y almacenar todos los datos necesarios. En particular, Fortis está facultada, observando las disposiciones en materia de protección de datos, para obtener datos de agencias de información económica (p. ej. SCHUFA) y para efectuar comunicaciones a las mismas, en la medida en que ello sea necesario para el cobro del crédito y dentro del marco legal.",
+    ],
+  },
+  {
+    h: "§ 10 Fuero / Derecho aplicable",
+    p: [
+      "Se aplica exclusivamente el Derecho de la República Federal de Alemania, con exclusión del Derecho extranjero y del Derecho internacional de compraventa. Tratándose de comerciantes, personas jurídicas de Derecho público o patrimonios especiales de Derecho público, el fuero es Düsseldorf. El mismo fuero se aplica si el cliente, en el momento de la incoación de un procedimiento judicial, no tiene un fuero general en la República Federal de Alemania.",
+    ],
+  },
+  {
+    h: "§ 11 Disposiciones finales",
+    p: [
+      "Las modificaciones y complementos de estas Condiciones Generales requieren la forma de texto, salvo que la ley prescriba una forma más estricta.",
+      "Si una disposición de estas Condiciones Generales fuera o llegara a ser ineficaz o inejecutable, la validez de las demás disposiciones no se verá afectada. En lugar de la disposición ineficaz/inejecutable se considerará acordada aquella que más se aproxime a su finalidad económica. Lo mismo se aplica a las lagunas de regulación.",
+      "Versión: mayo de 2026",
+    ],
+  },
+];
+
+export const datenschutz: LegalSection[] = [
+  {
+    h: "Política de privacidad",
+    p: ["Versión: 1 de marzo de 2023"],
+  },
+  {
+    h: "Índice de contenidos",
+    p: [
+      "Responsable",
+      "Resumen de los tratamientos",
+      "Bases jurídicas pertinentes",
+      "Medidas de seguridad",
+      "Transmisión de datos personales",
+      "Tratamiento de datos en terceros países",
+      "Supresión de datos",
+      "Uso de cookies",
+      "Prestaciones comerciales",
+      "Proveedores y servicios utilizados en el marco de la actividad comercial",
+      "Puesta a disposición de la oferta en línea y alojamiento web",
+      "Blogs y medios de publicación",
+      "Gestión de contactos y consultas",
+      "Comunicación publicitaria por correo electrónico, correo postal, fax o teléfono",
+      "Análisis web, monitorización y optimización",
+      "Marketing en línea",
+      "Complementos y funciones y contenidos integrados",
+      "Modificación y actualización de la política de privacidad",
+      "Derechos de los interesados",
+    ],
+  },
+  {
+    h: "Responsable",
+    p: [
+      "Responsable en el sentido del RGPD:",
+      "Fortis Inkasso GmbH & Co. KG",
+      "Gehrtsstraße 16",
+      "40235 Düsseldorf",
+      "Alemania",
+      "Correo electrónico: info@fortis-inkasso.de",
+      "Representada por su socio general Fortis Verwaltungs GmbH.",
+    ],
+  },
+  {
+    h: "Resumen de los tratamientos",
+    p: [
+      "El siguiente resumen recoge los tipos de datos tratados y las finalidades de su tratamiento y remite a los interesados.",
+    ],
+  },
+  {
+    h: "Tipos de datos tratados",
+    p: [
+      "Datos de inventario.",
+      "Datos de pago.",
+      "Datos de contacto.",
+      "Datos de contenido.",
+      "Datos contractuales.",
+      "Datos de uso.",
+      "Metadatos, datos de comunicación y de procedimiento.",
+    ],
+  },
+  {
+    h: "Categorías de interesados",
+    p: [
+      "Clientes.",
+      "Personas interesadas.",
+      "Interlocutores de comunicación.",
+      "Usuarios.",
+      "Socios comerciales y contractuales.",
+    ],
+  },
+  {
+    h: "Finalidades del tratamiento",
+    p: [
+      "Prestación de servicios contractuales y atención al cliente.",
+      "Solicitudes de contacto y comunicación.",
+      "Medidas de seguridad.",
+      "Marketing directo.",
+      "Medición de alcance.",
+      "Seguimiento (tracking).",
+      "Procedimientos administrativos y de organización.",
+      "Medición de conversiones.",
+      "Gestión y respuesta a consultas.",
+      "Comentarios (feedback).",
+      "Marketing.",
+      "Perfiles con información relativa a los usuarios.",
+      "Puesta a disposición de nuestra oferta en línea y facilidad de uso.",
+      "Infraestructura de tecnología de la información.",
+    ],
+  },
+  {
+    h: "Bases jurídicas pertinentes",
+    p: [
+      "A continuación encontrará un resumen de las bases jurídicas del RGPD sobre cuya base tratamos datos personales. Le rogamos que tenga en cuenta que, además de las disposiciones del RGPD, pueden aplicarse requisitos nacionales de protección de datos en su país o en el nuestro de residencia o domicilio. Si, además, en casos concretos fueran pertinentes bases jurídicas más específicas, se las comunicaremos en la política de privacidad.",
+      "Consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD) – El interesado ha dado su consentimiento para el tratamiento de sus datos personales para una o varias finalidades específicas.",
+      "Ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD) – El tratamiento es necesario para la ejecución de un contrato en el que el interesado es parte o para la aplicación de medidas precontractuales adoptadas a petición del interesado.",
+      "Obligación legal (art. 6, apdo. 1, frase 1, letra c) RGPD) – El tratamiento es necesario para el cumplimiento de una obligación legal a la que está sujeto el responsable.",
+      "Intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD) – El tratamiento es necesario para la satisfacción de los intereses legítimos del responsable o de un tercero, siempre que sobre dichos intereses no prevalezcan los intereses o los derechos y libertades fundamentales del interesado que requieran la protección de datos personales.",
+      "Además de las disposiciones de protección de datos del RGPD, en Alemania se aplican normas nacionales de protección de datos. Entre ellas destaca la Ley de protección frente al uso indebido de datos personales en el tratamiento de datos (Ley Federal de Protección de Datos – BDSG). La BDSG contiene, en particular, disposiciones especiales sobre el derecho de acceso, el derecho de supresión, el derecho de oposición, el tratamiento de categorías especiales de datos personales, el tratamiento para otras finalidades y la transmisión, así como las decisiones automatizadas en casos concretos, incluida la elaboración de perfiles. Asimismo, regula el tratamiento de datos a efectos de la relación laboral (art. 26 BDSG), en particular en lo que respecta al establecimiento, ejecución o terminación de relaciones laborales, así como el consentimiento de los empleados. Además, pueden aplicarse las leyes de protección de datos de los distintos estados federados.",
+    ],
+  },
+  {
+    h: "Medidas de seguridad",
+    p: [
+      "De conformidad con los requisitos legales y teniendo en cuenta el estado de la técnica, los costes de aplicación y la naturaleza, el alcance, las circunstancias y las finalidades del tratamiento, así como las distintas probabilidades y la gravedad de la amenaza para los derechos y libertades de las personas físicas, adoptamos medidas técnicas y organizativas adecuadas para garantizar un nivel de protección apropiado al riesgo.",
+      "Entre las medidas figuran, en particular, la salvaguarda de la confidencialidad, integridad y disponibilidad de los datos mediante el control del acceso físico y electrónico a los datos, así como del acceso, la introducción, la comunicación, la garantía de la disponibilidad y su separación. Además, hemos establecido procedimientos que garantizan el ejercicio de los derechos de los interesados, la supresión de datos y la respuesta a las amenazas a los datos. Asimismo, tenemos en cuenta la protección de los datos personales ya durante el desarrollo o la selección de hardware, software y procedimientos, conforme al principio de protección de datos desde el diseño y por defecto respetuoso con la privacidad.",
+    ],
+  },
+  {
+    h: "Transmisión de datos personales",
+    p: [
+      "En el marco de nuestro tratamiento de datos personales, puede suceder que los datos se transmitan a otras entidades, empresas, unidades organizativas jurídicamente independientes o personas, o que se les revelen. Entre los destinatarios de estos datos pueden figurar, p. ej., prestadores de servicios encargados de tareas de TI o proveedores de servicios y contenidos integrados en un sitio web. En tales casos, respetamos los requisitos legales y, en particular, celebramos con los destinatarios de sus datos los correspondientes contratos o acuerdos que sirven para proteger sus datos.",
+    ],
+  },
+  {
+    h: "Tratamiento de datos en terceros países",
+    p: [
+      "En la medida en que tratemos datos en un tercer país (es decir, fuera de la Unión Europea (UE), del Espacio Económico Europeo (EEE)) o en que el tratamiento tenga lugar en el marco del uso de servicios de terceros o de la revelación o transmisión de datos a otras personas, entidades o empresas, ello solo se realiza de conformidad con los requisitos legales.",
+      "Sin perjuicio de un consentimiento expreso o de una transmisión exigida contractual o legalmente, solo tratamos o hacemos tratar los datos en terceros países con un nivel reconocido de protección de datos, con una obligación contractual mediante las denominadas cláusulas contractuales tipo de la Comisión Europea, en presencia de certificaciones o de normas corporativas vinculantes de protección de datos (art. 44 a 49 RGPD, página informativa de la Comisión Europea: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de).",
+    ],
+  },
+  {
+    h: "Supresión de datos",
+    p: [
+      "Los datos tratados por nosotros se suprimen conforme a los requisitos legales tan pronto como se revoquen los consentimientos que permiten su tratamiento o dejen de existir otras autorizaciones (p. ej., cuando la finalidad del tratamiento de estos datos haya dejado de existir o no sean necesarios para dicha finalidad). En la medida en que los datos no se supriman por ser necesarios para otras finalidades legalmente admisibles, su tratamiento se limita a dichas finalidades. Es decir, los datos se bloquean y no se tratan para otras finalidades. Esto se aplica, p. ej., a los datos que deben conservarse por motivos de Derecho mercantil o fiscal, o cuya conservación sea necesaria para el ejercicio, defensa o interposición de acciones legales o para la protección de los derechos de otra persona física o jurídica.",
+      "Nuestras indicaciones de protección de datos pueden contener, además, otras precisiones sobre la conservación y supresión de datos que rigen con carácter prioritario para los respectivos tratamientos.",
+    ],
+  },
+  {
+    h: "Uso de cookies",
+    p: [
+      "Las cookies son pequeños archivos de texto, u otras marcas de almacenamiento, que guardan información en los dispositivos finales y leen información de estos. P. ej., para almacenar el estado de inicio de sesión en una cuenta de usuario, el contenido de un carrito de la compra en una tienda electrónica, los contenidos consultados o las funciones utilizadas de una oferta en línea. Las cookies también pueden emplearse para diversas finalidades, p. ej., para la funcionalidad, la seguridad y la comodidad de las ofertas en línea, así como para la elaboración de análisis de los flujos de visitantes.",
+      "Indicaciones sobre el consentimiento: Utilizamos cookies de conformidad con las disposiciones legales. Por ello, recabamos de los usuarios un consentimiento previo, salvo cuando este no sea legalmente exigido. En particular, no es necesario un consentimiento cuando el almacenamiento y la lectura de la información, incluidas las cookies, sean estrictamente necesarios para prestar a los usuarios un servicio de telemedios (es decir, nuestra oferta en línea) expresamente solicitado por ellos. El consentimiento revocable se comunica claramente a los usuarios y contiene la información sobre el respectivo uso de cookies.",
+      "Indicaciones sobre las bases jurídicas en materia de protección de datos: La base jurídica en materia de protección de datos sobre la que tratamos los datos personales de los usuarios con ayuda de cookies depende de si solicitamos a los usuarios un consentimiento. Si los usuarios consienten, la base jurídica del tratamiento de sus datos es el consentimiento declarado. En caso contrario, los datos tratados con ayuda de cookies se tratan sobre la base de nuestros intereses legítimos (p. ej., en la explotación económica de nuestra oferta en línea y en la mejora de su usabilidad) o, si ello tiene lugar en el marco del cumplimiento de nuestras obligaciones contractuales, cuando el uso de cookies sea necesario para cumplir nuestras obligaciones contractuales. Sobre las finalidades para las que tratamos las cookies informamos a lo largo de esta política de privacidad o en el marco de nuestros procesos de consentimiento y tratamiento.",
+      "Período de almacenamiento: En cuanto al período de almacenamiento, se distinguen los siguientes tipos de cookies:",
+      "Cookies temporales (también: cookies de sesión): Las cookies temporales se suprimen a más tardar después de que un usuario haya abandonado una oferta en línea y cerrado su dispositivo final (p. ej., el navegador o la aplicación móvil).",
+      "Cookies permanentes: Las cookies permanentes permanecen almacenadas incluso después de cerrar el dispositivo final. Así, por ejemplo, puede almacenarse el estado de inicio de sesión o mostrarse directamente contenidos preferidos cuando el usuario vuelve a visitar un sitio web. Del mismo modo, los datos de los usuarios recabados con ayuda de cookies pueden utilizarse para la medición de alcance. En la medida en que no comuniquemos a los usuarios indicaciones explícitas sobre el tipo y el período de almacenamiento de las cookies (p. ej., al recabar el consentimiento), los usuarios deben partir de la base de que las cookies son permanentes y de que el período de almacenamiento puede ser de hasta dos años.",
+      "Indicaciones generales sobre la revocación y la oposición (opt-out): Los usuarios pueden revocar en cualquier momento los consentimientos otorgados y, además, oponerse al tratamiento de conformidad con los requisitos legales del art. 21 RGPD. Los usuarios pueden declarar su oposición también a través de la configuración de su navegador, p. ej., desactivando el uso de cookies (con lo que también puede verse limitada la funcionalidad de nuestros servicios en línea). Una oposición al uso de cookies con fines de marketing en línea puede declararse también a través de los sitios web https://optout.aboutads.info y https://www.youronlinechoices.com/.",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Tratamiento de datos de cookies sobre la base de un consentimiento: Empleamos un procedimiento de gestión del consentimiento de cookies, en cuyo marco pueden recabarse, gestionarse y revocarse por los usuarios los consentimientos al uso de cookies, o a los tratamientos y proveedores mencionados en el marco del procedimiento de gestión del consentimiento de cookies. La declaración de consentimiento se almacena para no tener que volver a solicitarla y para poder acreditar el consentimiento conforme a la obligación legal. El almacenamiento puede realizarse del lado del servidor y/o en una cookie (la denominada cookie de opt-in, o con ayuda de tecnologías comparables), a fin de poder asignar el consentimiento a un usuario o a su dispositivo. Sin perjuicio de las indicaciones individuales sobre los proveedores de servicios de gestión de cookies, se aplican las siguientes indicaciones: La duración del almacenamiento del consentimiento puede ser de hasta dos años. En este caso se forma un identificador de usuario seudónimo y se almacena junto con el momento del consentimiento, indicaciones sobre el alcance del consentimiento (p. ej., qué categorías de cookies y/o proveedores de servicios), así como el navegador, el sistema y el dispositivo final utilizados.",
+    ],
+  },
+  {
+    h: "Prestaciones comerciales",
+    p: [
+      "Tratamos datos de nuestros socios contractuales y comerciales, p. ej., clientes y personas interesadas (denominados conjuntamente «socios contractuales»), en el marco de relaciones contractuales y comparables, así como de las medidas asociadas y de la comunicación con los socios contractuales (o precontractualmente), p. ej., para responder a consultas.",
+      "Tratamos estos datos para cumplir nuestras obligaciones contractuales. Entre ellas figuran, en particular, las obligaciones de prestación de los servicios acordados, eventuales obligaciones de actualización y la subsanación en caso de defectos de garantía y otras perturbaciones de la prestación. Además, tratamos los datos para salvaguardar nuestros derechos y a efectos de las tareas administrativas asociadas a estas obligaciones, así como de la organización de la empresa. Asimismo, tratamos los datos sobre la base de nuestros intereses legítimos en una gestión empresarial adecuada y económica, así como en medidas de seguridad para proteger a nuestros socios contractuales y nuestra actividad comercial frente a abusos, amenazas a sus datos, secretos, información y derechos (p. ej., para la intervención de servicios de telecomunicaciones, transporte y otros servicios auxiliares, así como subcontratistas, bancos, asesores fiscales y jurídicos, prestadores de servicios de pago o autoridades tributarias). En el marco del Derecho aplicable, solo transmitimos los datos de los socios contractuales a terceros en la medida en que ello sea necesario para las finalidades antes mencionadas o para el cumplimiento de obligaciones legales. Sobre otras formas de tratamiento, p. ej., con fines de marketing, se informa a los socios contractuales en el marco de esta política de privacidad.",
+      "Qué datos son necesarios para las finalidades antes mencionadas lo comunicamos a los socios contractuales antes o durante la recogida de datos, p. ej., en formularios en línea, mediante una identificación especial (p. ej., colores) o símbolos (p. ej., asteriscos o similares), o personalmente.",
+      "Suprimimos los datos tras el vencimiento de las obligaciones legales de garantía y comparables, es decir, en principio, tras el transcurso de 4 años, salvo que los datos se almacenen en una cuenta de cliente, p. ej., mientras deban conservarse por motivos legales de archivo. El plazo legal de conservación es de diez años para los documentos con relevancia fiscal, así como para los libros de comercio, inventarios, balances de apertura, cuentas anuales, las instrucciones de trabajo y demás documentos organizativos necesarios para la comprensión de estos documentos y los justificantes contables, y de seis años para las cartas comerciales y de negocios recibidas y las reproducciones de las cartas comerciales y de negocios enviadas. El plazo comienza al final del año natural en el que se realizó la última anotación en el libro, se elaboró el inventario, el balance de apertura, las cuentas anuales o el informe de gestión, se recibió o envió la carta comercial o de negocios, o se originó el justificante contable, así como aquel en el que se efectuó el registro o se originaron los demás documentos.",
+      "En la medida en que empleemos proveedores terceros o plataformas para la prestación de nuestros servicios, en la relación entre los usuarios y los proveedores rigen las condiciones de contratación y las indicaciones de protección de datos de los respectivos proveedores terceros o plataformas.",
+      "Tipos de datos tratados: datos de inventario (p. ej., nombres, direcciones); datos de pago (p. ej., datos bancarios, facturas, historial de pagos); datos de contacto (p. ej., correo electrónico, números de teléfono); datos contractuales (p. ej., objeto del contrato, duración, categoría de cliente); datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: clientes; personas interesadas; socios comerciales y contractuales.",
+      "Finalidades del tratamiento: prestación de servicios contractuales y atención al cliente; medidas de seguridad; solicitudes de contacto y comunicación; procedimientos administrativos y de organización; gestión y respuesta a consultas.",
+      "Bases jurídicas: ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD); obligación legal (art. 6, apdo. 1, frase 1, letra c) RGPD); intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Cuenta de cliente: Los socios contractuales pueden crear una cuenta dentro de nuestra oferta en línea (p. ej., cuenta de cliente o de usuario, en breve «cuenta de cliente»). Si es necesario el registro de una cuenta de cliente, se informa de ello a los socios contractuales, así como de los datos necesarios para el registro. Las cuentas de cliente no son públicas y no pueden ser indexadas por motores de búsqueda. En el marco del registro y de los posteriores inicios de sesión y usos de la cuenta de cliente, almacenamos las direcciones IP de los clientes junto con los momentos de acceso, a fin de poder acreditar el registro y prevenir un eventual uso indebido de la cuenta de cliente. Cuando los clientes han cancelado su cuenta de cliente, los datos relativos a la cuenta de cliente se suprimen, salvo que su conservación sea necesaria por motivos legales. Corresponde a los clientes asegurar sus datos una vez cancelada la cuenta de cliente; bases jurídicas: ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD).",
+      "Tienda y comercio electrónico: Tratamos los datos de nuestros clientes para posibilitarles la selección, adquisición o pedido de los productos, mercancías y servicios asociados elegidos, así como su pago y entrega o ejecución. En la medida en que sea necesario para la ejecución de un pedido, empleamos prestadores de servicios, en particular empresas de correos, transporte y envío, para llevar a cabo la entrega o ejecución frente a nuestros clientes. Para la tramitación de las operaciones de pago recurrimos a los servicios de bancos y prestadores de servicios de pago. Los datos necesarios se identifican como tales en el marco del proceso de pedido o de adquisición comparable e incluyen los datos necesarios para la entrega o puesta a disposición y la facturación, así como la información de contacto para poder realizar eventuales consultas; bases jurídicas: ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD).",
+    ],
+  },
+  {
+    h: "Proveedores y servicios utilizados en el marco de la actividad comercial",
+    p: [
+      "En el marco de nuestra actividad comercial utilizamos, observando los requisitos legales, servicios, plataformas, interfaces o complementos adicionales de proveedores terceros (en breve «servicios»). Su uso se basa en nuestros intereses en una gestión adecuada, lícita y económica de nuestra actividad comercial y de nuestras medidas de organización.",
+      "Tipos de datos tratados: datos de inventario (p. ej., nombres, direcciones); datos de pago (p. ej., datos bancarios, facturas, historial de pagos); datos de contacto (p. ej., correo electrónico, números de teléfono); datos de contenido (p. ej., entradas en formularios en línea); datos contractuales (p. ej., objeto del contrato, duración, categoría de cliente).",
+      "Interesados: clientes; personas interesadas; usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea); socios comerciales y contractuales.",
+      "Finalidades del tratamiento: prestación de servicios contractuales y atención al cliente; procedimientos administrativos y de organización.",
+      "Bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Puesta a disposición de la oferta en línea y alojamiento web",
+    p: [
+      "Tratamos los datos de los usuarios para poder ponerles a disposición nuestros servicios en línea. A tal fin, tratamos la dirección IP del usuario, necesaria para transmitir los contenidos y funciones de nuestros servicios en línea al navegador o al dispositivo final de los usuarios.",
+      "Tipos de datos tratados: datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento); datos de contenido (p. ej., entradas en formularios en línea).",
+      "Interesados: usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea).",
+      "Finalidades del tratamiento: puesta a disposición de nuestra oferta en línea y facilidad de uso; infraestructura de tecnología de la información (funcionamiento y puesta a disposición de sistemas de información y dispositivos técnicos (ordenadores, servidores, etc.)); medidas de seguridad.",
+      "Bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Recogida de datos de acceso y archivos de registro: El acceso a nuestra oferta en línea se registra en forma de los denominados «archivos de registro del servidor». Entre los archivos de registro del servidor pueden figurar la dirección y el nombre de las páginas web y archivos consultados, la fecha y hora de la consulta, los volúmenes de datos transferidos, el aviso de consulta correcta, el tipo de navegador y su versión, el sistema operativo del usuario, la URL de referencia (la página visitada anteriormente) y, por lo general, las direcciones IP y el proveedor solicitante. Los archivos de registro del servidor pueden emplearse, por un lado, con fines de seguridad, p. ej., para evitar una sobrecarga de los servidores (en particular en caso de ataques abusivos, los denominados ataques DDoS) y, por otro, para garantizar la utilización de los servidores y su estabilidad; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD); supresión de datos: la información de los archivos de registro se almacena durante un máximo de 30 días y después se suprime o anonimiza. Los datos cuya conservación posterior sea necesaria a efectos probatorios quedan excluidos de la supresión hasta la aclaración definitiva del respectivo incidente.",
+      "Envío y alojamiento de correo electrónico: Los servicios de alojamiento web que utilizamos comprenden también el envío, la recepción y el almacenamiento de correos electrónicos. A estas finalidades se tratan las direcciones de los destinatarios y remitentes, así como otra información relativa al envío de correo electrónico (p. ej., los proveedores implicados) y los contenidos de los respectivos correos electrónicos. Los datos antes mencionados pueden tratarse asimismo con fines de detección de SPAM. Le rogamos que tenga en cuenta que, por lo general, los correos electrónicos no se envían cifrados por internet. Por regla general, los correos electrónicos se cifran durante el transporte, pero (salvo que se emplee un procedimiento de cifrado de extremo a extremo) no en los servidores desde los que se envían y reciben. Por ello, no podemos asumir ninguna responsabilidad por la vía de transmisión de los correos electrónicos entre el remitente y su recepción en nuestro servidor; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Red de distribución de contenidos: Empleamos una «red de distribución de contenidos» (CDN). Una CDN es un servicio con cuya ayuda los contenidos de una oferta en línea, en particular archivos multimedia de gran tamaño como gráficos o scripts de programa, pueden entregarse de forma más rápida y segura con ayuda de servidores distribuidos regionalmente y conectados a través de internet; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Blogs y medios de publicación",
+    p: [
+      "Utilizamos blogs o medios comparables de comunicación y publicación en línea (en lo sucesivo «medio de publicación»). Los datos de los lectores se tratan a los efectos del medio de publicación únicamente en la medida en que sea necesario para su presentación y para la comunicación entre autores y lectores, o por motivos de seguridad. Por lo demás, remitimos a la información sobre el tratamiento de los visitantes de nuestro medio de publicación en el marco de estas indicaciones de protección de datos.",
+      "Tipos de datos tratados: datos de inventario (p. ej., nombres, direcciones); datos de contacto (p. ej., correo electrónico, números de teléfono); datos de contenido (p. ej., entradas en formularios en línea); datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea).",
+      "Finalidades del tratamiento: prestación de servicios contractuales y atención al cliente; comentarios (p. ej., recogida de feedback mediante formulario en línea); puesta a disposición de nuestra oferta en línea y facilidad de uso.",
+      "Bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Gestión de contactos y consultas",
+    p: [
+      "Al ponerse en contacto con nosotros (p. ej., por correo postal, formulario de contacto, correo electrónico, teléfono o a través de redes sociales), así como en el marco de las relaciones de usuario y comerciales existentes, se tratan los datos de las personas que realizan la consulta en la medida en que ello sea necesario para responder a las solicitudes de contacto y a las eventuales medidas solicitadas.",
+      "Tipos de datos tratados: datos de contacto (p. ej., correo electrónico, números de teléfono); datos de contenido (p. ej., entradas en formularios en línea); datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: interlocutores de comunicación.",
+      "Finalidades del tratamiento: solicitudes de contacto y comunicación; gestión y respuesta a consultas; comentarios (p. ej., recogida de feedback mediante formulario en línea); puesta a disposición de nuestra oferta en línea y facilidad de uso.",
+      "Bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD); ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD).",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Formulario de contacto: Cuando los usuarios se ponen en contacto con nosotros a través de nuestro formulario de contacto, correo electrónico u otras vías de comunicación, tratamos los datos que nos comunican en este contexto para la tramitación del asunto comunicado; bases jurídicas: ejecución de un contrato y consultas precontractuales (art. 6, apdo. 1, frase 1, letra b) RGPD), intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Comunicación publicitaria por correo electrónico, correo postal, fax o teléfono",
+    p: [
+      "Tratamos datos personales con fines de comunicación publicitaria, que puede realizarse a través de diversos canales, como correo electrónico, teléfono, correo postal o fax, de conformidad con los requisitos legales.",
+      "Los destinatarios tienen derecho a revocar en cualquier momento los consentimientos otorgados o a oponerse en cualquier momento a la comunicación publicitaria.",
+      "Tras la revocación u oposición, almacenamos los datos necesarios para acreditar la autorización anterior de contacto o de envío durante un máximo de tres años tras el final del año de la revocación u oposición, sobre la base de nuestros intereses legítimos. El tratamiento de estos datos se limita a la finalidad de una posible defensa frente a reclamaciones. Sobre la base del interés legítimo en respetar de forma permanente la revocación u oposición de los usuarios, almacenamos además los datos necesarios para evitar un nuevo contacto (p. ej., según el canal de comunicación, la dirección de correo electrónico, el número de teléfono, el nombre).",
+      "Tipos de datos tratados: datos de inventario (p. ej., nombres, direcciones); datos de contacto (p. ej., correo electrónico, números de teléfono).",
+      "Interesados: interlocutores de comunicación.",
+      "Finalidades del tratamiento: marketing directo (p. ej., por correo electrónico o postal).",
+      "Bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Análisis web, monitorización y optimización",
+    p: [
+      "El análisis web (también denominado «medición de alcance») sirve para evaluar los flujos de visitantes de nuestra oferta en línea y puede comprender comportamientos, intereses o información demográfica sobre los visitantes, como la edad o el sexo, en forma de valores seudónimos. Con ayuda del análisis de alcance podemos reconocer, p. ej., en qué momento se utilizan con mayor frecuencia nuestra oferta en línea o sus funciones o contenidos, o cuáles invitan a su reutilización. Del mismo modo, podemos comprender qué ámbitos requieren optimización.",
+      "Además del análisis web, también podemos emplear procedimientos de prueba para, p. ej., probar y optimizar distintas versiones de nuestra oferta en línea o de sus componentes.",
+      "Salvo que a continuación se indique otra cosa, a estas finalidades pueden crearse perfiles, es decir, datos agrupados en un proceso de uso, y almacenarse información en un navegador o en un dispositivo final y leerse de este. Entre la información recabada figuran, en particular, los sitios web visitados y los elementos utilizados en ellos, así como indicaciones técnicas, como el navegador utilizado, el sistema informático utilizado y datos sobre los tiempos de uso. En la medida en que los usuarios hayan manifestado su conformidad frente a nosotros o frente a los proveedores de los servicios que empleamos con la recogida de sus datos de localización, también pueden tratarse datos de localización.",
+      "También se almacenan las direcciones IP de los usuarios. No obstante, empleamos un procedimiento de enmascaramiento de IP (es decir, seudonimización mediante el acortamiento de la dirección IP) para proteger a los usuarios. En general, en el marco del análisis web, las pruebas A/B y la optimización no se almacenan datos identificables de los usuarios (como direcciones de correo electrónico o nombres), sino seudónimos. Es decir, ni nosotros ni los proveedores del software empleado conocemos la identidad real de los usuarios, sino únicamente los datos almacenados en sus perfiles a los efectos de los respectivos procedimientos.",
+      "Tipos de datos tratados: datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea).",
+      "Finalidades del tratamiento: medición de alcance (p. ej., estadísticas de acceso, reconocimiento de visitantes recurrentes); perfiles con información relativa a los usuarios (creación de perfiles de usuario); seguimiento (p. ej., elaboración de perfiles basada en intereses/comportamiento, uso de cookies); puesta a disposición de nuestra oferta en línea y facilidad de uso.",
+      "Medidas de seguridad: enmascaramiento de IP (seudonimización de la dirección IP).",
+      "Bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD).",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Google Analytics: análisis web, medición de alcance y medición de flujos de usuarios; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); sitio web: https://marketingplatform.google.com/intl/de/about/analytics/; política de privacidad: https://policies.google.com/privacy; contrato de encargo de tratamiento: https://business.safety.google/adsprocessorterms; cláusulas contractuales tipo (garantía del nivel de protección de datos en el tratamiento en terceros países): https://business.safety.google/adsprocessorterms; posibilidad de oposición (opt-out): complemento de opt-out: https://tools.google.com/dlpage/gaoptout?hl=de, configuración para la visualización de anuncios: https://adssettings.google.com/authenticated; más información: https://privacy.google.com/businesses/adsservices (tipos de tratamiento y de datos tratados).",
+      "Google Analytics 4: Utilizamos Google Analytics para medir y analizar el uso de nuestra oferta en línea sobre la base de un número de identificación de usuario seudónimo. Este número de identificación no contiene datos unívocos, como nombres o direcciones de correo electrónico. Sirve para asignar información de análisis a un dispositivo final, a fin de reconocer qué contenidos han consultado los usuarios en uno o varios procesos de uso, qué términos de búsqueda han empleado, los han vuelto a consultar o han interactuado con nuestra oferta en línea. Del mismo modo, se almacenan el momento del uso y su duración, así como las fuentes de los usuarios que remiten a nuestra oferta en línea y aspectos técnicos de sus dispositivos finales y navegadores. En ello se crean perfiles seudónimos de usuarios con información procedente del uso de distintos dispositivos, pudiendo emplearse cookies. En Analytics, los datos sobre la ubicación geográfica se proporcionan a un nivel superior mediante la recogida de los siguientes metadatos a partir de la búsqueda de IP: «ciudad» (y la latitud y longitud derivadas de la ciudad), «continente», «país», «región», «subcontinente» (y los equivalentes basados en ID). Para garantizar la protección de los datos de los usuarios en la UE, Google recibe y trata todos los datos de los usuarios a través de dominios y servidores situados dentro de la UE. La dirección IP de los usuarios no se registra y, por defecto, se acortan los dos últimos dígitos. El acortamiento de la dirección IP se realiza en servidores de la UE para usuarios de la UE. Además, todos los datos sensibles recabados de usuarios en la UE se suprimen antes de ser recopilados a través de dominios y servidores de la UE; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); sitio web: https://marketingplatform.google.com/intl/de/about/analytics/; política de privacidad: https://policies.google.com/privacy; contrato de encargo de tratamiento: https://business.safety.google/adsprocessorterms/; cláusulas contractuales tipo (garantía del nivel de protección de datos en el tratamiento en terceros países): https://business.safety.google/adsprocessorterms; posibilidad de oposición (opt-out): complemento de opt-out: https://tools.google.com/dlpage/gaoptout?hl=de, configuración para la visualización de anuncios: https://adssettings.google.com/authenticated; más información: https://privacy.google.com/businesses/adsservices (tipos de tratamiento y de datos tratados).",
+    ],
+  },
+  {
+    h: "Marketing en línea",
+    p: [
+      "Tratamos datos personales con fines de marketing en línea, entre los que pueden figurar, en particular, la comercialización de espacios publicitarios o la presentación de contenidos publicitarios y de otro tipo (denominados conjuntamente «contenidos») en función de los intereses potenciales de los usuarios, así como la medición de su eficacia.",
+      "A estas finalidades se crean los denominados perfiles de usuario y se almacenan en un archivo (la denominada «cookie») o se emplean procedimientos similares mediante los cuales se almacenan los datos relevantes sobre el usuario para la presentación de los contenidos antes mencionados. Entre estos datos pueden figurar, p. ej., contenidos visualizados, sitios web visitados, redes en línea utilizadas, pero también interlocutores de comunicación e indicaciones técnicas, como el navegador utilizado, el sistema informático utilizado, así como datos sobre los tiempos de uso y las funciones utilizadas. En la medida en que los usuarios hayan consentido la recogida de sus datos de localización, también estos pueden tratarse.",
+      "También se almacenan las direcciones IP de los usuarios. No obstante, empleamos los procedimientos de enmascaramiento de IP disponibles (es decir, seudonimización mediante el acortamiento de la dirección IP) para proteger a los usuarios. En general, en el marco del procedimiento de marketing en línea no se almacenan datos identificables de los usuarios (como direcciones de correo electrónico o nombres), sino seudónimos. Es decir, ni nosotros ni los proveedores de los procedimientos de marketing en línea conocemos la identidad real de los usuarios, sino únicamente los datos almacenados en sus perfiles.",
+      "Los datos de los perfiles se almacenan, por regla general, en las cookies o mediante procedimientos similares. Estas cookies pueden, por lo general, leerse posteriormente también en otros sitios web que empleen el mismo procedimiento de marketing en línea y analizarse a efectos de la presentación de contenidos, así como completarse con otros datos y almacenarse en el servidor del proveedor del procedimiento de marketing en línea.",
+      "Excepcionalmente, pueden asignarse datos identificables a los perfiles. Es el caso, p. ej., cuando los usuarios son miembros de una red social cuyo procedimiento de marketing en línea empleamos y la red vincula los perfiles de los usuarios con los datos antes mencionados. Le rogamos que tenga en cuenta que los usuarios pueden alcanzar acuerdos adicionales con los proveedores, p. ej., mediante el consentimiento en el marco del registro.",
+      "En principio, solo obtenemos acceso a información agregada sobre el éxito de nuestros anuncios. No obstante, en el marco de las denominadas mediciones de conversión podemos comprobar cuáles de nuestros procedimientos de marketing en línea han conducido a una denominada conversión, es decir, p. ej., a la celebración de un contrato con nosotros. La medición de conversiones se utiliza únicamente para analizar el éxito de nuestras medidas de marketing.",
+      "Salvo que se indique otra cosa, le rogamos que parta de la base de que las cookies utilizadas se almacenan durante un período de dos años.",
+      "Tipos de datos tratados: datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea).",
+      "Finalidades del tratamiento: medición de alcance (p. ej., estadísticas de acceso, reconocimiento de visitantes recurrentes); seguimiento (p. ej., elaboración de perfiles basada en intereses/comportamiento, uso de cookies); marketing; perfiles con información relativa a los usuarios (creación de perfiles de usuario); medición de conversiones (medición de la eficacia de las medidas de marketing).",
+      "Medidas de seguridad: enmascaramiento de IP (seudonimización de la dirección IP).",
+      "Bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Posibilidad de oposición (opt-out): Remitimos a las indicaciones de protección de datos de los respectivos proveedores y a las posibilidades de oposición indicadas para los proveedores (el denominado «opt-out»). Si no se ha indicado una posibilidad de opt-out explícita, existe, por un lado, la posibilidad de que desactive las cookies en la configuración de su navegador. No obstante, ello puede limitar funciones de nuestra oferta en línea. Por ello recomendamos además las siguientes posibilidades de opt-out, ofrecidas de forma conjunta y orientadas a las respectivas áreas: a) Europa: https://www.youronlinechoices.eu. b) Canadá: https://www.youradchoices.ca/choices. c) EE. UU.: https://www.aboutads.info/choices. d) transversal: https://optout.aboutads.info.",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Google Ads y medición de conversiones: Procedimiento de marketing en línea con el fin de colocar contenidos y anuncios dentro de la red publicitaria del prestador del servicio (p. ej., en resultados de búsqueda, en vídeos, en sitios web, etc.), de modo que se muestren a usuarios que tengan un presunto interés en los anuncios. Además, medimos la conversión de los anuncios, es decir, si los usuarios los han tomado como ocasión para interactuar con ellos y utilizar las ofertas anunciadas (la denominada conversión). No obstante, solo recibimos información anónima y ninguna información personal sobre usuarios individuales; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD), intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD); sitio web: https://marketingplatform.google.com; política de privacidad: https://policies.google.com/privacy; más información: tipos de tratamiento y de datos tratados: https://privacy.google.com/businesses/adsservices; condiciones de tratamiento de datos entre responsables y cláusulas contractuales tipo para transferencias de datos a terceros países: https://business.safety.google/adscontrollerterms.",
+      "Google AdSense con anuncios personalizados: Utilizamos el servicio Google AdSense con anuncios personalizados, con cuya ayuda se muestran anuncios dentro de nuestra oferta en línea y recibimos una retribución por su visualización u otro uso; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); sitio web: https://marketingplatform.google.com; política de privacidad: https://policies.google.com/privacy; más información: tipos de tratamiento y de datos tratados: https://privacy.google.com/businesses/adsservices; condiciones de tratamiento de datos entre responsables y cláusulas contractuales tipo para transferencias de datos a terceros países: https://business.safety.google/adscontrollerterms.",
+      "Google AdSense con anuncios no personalizados: Utilizamos el servicio Google AdSense con anuncios no personalizados, con cuya ayuda se muestran anuncios dentro de nuestra oferta en línea y recibimos una retribución por su visualización u otro uso; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: consentimiento (art. 6, apdo. 1, frase 1, letra a) RGPD); sitio web: https://marketingplatform.google.com; política de privacidad: https://policies.google.com/privacy; más información: tipos de tratamiento y de datos tratados: https://privacy.google.com/businesses/adsservices; condiciones de tratamiento de datos entre responsables y cláusulas contractuales tipo para transferencias de datos a terceros países: https://business.safety.google/adscontrollerterms.",
+    ],
+  },
+  {
+    h: "Complementos y funciones y contenidos integrados",
+    p: [
+      "Integramos en nuestra oferta en línea elementos funcionales y de contenido que se obtienen de los servidores de sus respectivos proveedores (en lo sucesivo denominados «proveedores terceros»). Puede tratarse, por ejemplo, de gráficos, vídeos o planos de ciudades (en lo sucesivo denominados de forma uniforme «contenidos»).",
+      "La integración presupone siempre que los proveedores terceros de estos contenidos traten la dirección IP de los usuarios, ya que sin la dirección IP no podrían enviar los contenidos a su navegador. La dirección IP es, por tanto, necesaria para la presentación de estos contenidos o funciones. Nos esforzamos por utilizar únicamente contenidos cuyos respectivos proveedores empleen la dirección IP solo para la entrega de los contenidos. Los proveedores terceros pueden emplear además las denominadas etiquetas de píxel (gráficos invisibles, también denominados «web beacons») con fines estadísticos o de marketing. Mediante las «etiquetas de píxel» puede evaluarse información como el tráfico de visitantes en las páginas de este sitio web. La información seudónima puede almacenarse además en cookies en el dispositivo de los usuarios y contener, entre otras cosas, información técnica sobre el navegador y el sistema operativo, sobre los sitios web de referencia, sobre el momento de la visita, así como otros datos sobre el uso de nuestra oferta en línea, y vincularse con dicha información procedente de otras fuentes.",
+      "Tipos de datos tratados: datos de uso (p. ej., sitios web visitados, interés en contenidos, tiempos de acceso); metadatos, datos de comunicación y de procedimiento (p. ej., direcciones IP, indicaciones temporales, números de identificación, estado de consentimiento).",
+      "Interesados: usuarios (p. ej., visitantes del sitio web, usuarios de servicios en línea).",
+      "Finalidades del tratamiento: puesta a disposición de nuestra oferta en línea y facilidad de uso.",
+      "Bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Otras indicaciones sobre procesos de tratamiento, procedimientos y servicios:",
+      "Integración de software, scripts o frameworks de terceros (p. ej., jQuery): Integramos en nuestra oferta en línea software que recuperamos de los servidores de otros proveedores (p. ej., bibliotecas de funciones que utilizamos para la presentación o la facilidad de uso de nuestra oferta en línea). En ello, los respectivos proveedores recaban la dirección IP de los usuarios y pueden tratarla a efectos de la transmisión del software al navegador de los usuarios, así como con fines de seguridad, y para la evaluación y optimización de su oferta; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+      "Google Fonts (obtención desde el servidor de Google): Obtención de fuentes (y símbolos) con el fin de un uso técnicamente seguro, sin mantenimiento y eficiente de fuentes y símbolos en cuanto a actualidad y tiempos de carga, su presentación uniforme y la consideración de posibles restricciones de licencia. Al proveedor de las fuentes se le comunica la dirección IP del usuario para que las fuentes puedan ponerse a disposición en el navegador del usuario. Además, se transmiten datos técnicos (configuración de idioma, resolución de pantalla, sistema operativo, hardware utilizado) necesarios para la puesta a disposición de las fuentes en función de los dispositivos utilizados y del entorno técnico. Estos datos pueden tratarse en un servidor del proveedor de las fuentes en EE. UU. Al visitar nuestra oferta en línea, los navegadores de los usuarios envían sus solicitudes HTTP a la Google Fonts Web API (es decir, una interfaz de software para la obtención de las fuentes). La Google Fonts Web API pone a disposición de los usuarios las hojas de estilo en cascada (CSS) de Google Fonts y, a continuación, las fuentes indicadas en las CSS. Entre estas solicitudes HTTP figuran (1) la dirección IP utilizada por el respectivo usuario para acceder a internet, (2) la URL solicitada en el servidor de Google y (3) las cabeceras HTTP, incluido el agente de usuario, que describe las versiones de navegador y sistema operativo de los visitantes del sitio web, así como la URL de referencia (es decir, el sitio web en el que debe mostrarse la fuente de Google). Las direcciones IP no se registran ni almacenan en servidores de Google y no se analizan. La Google Fonts Web API registra detalles de las solicitudes HTTP (URL solicitada, agente de usuario y URL de referencia). El acceso a estos datos está restringido y estrictamente controlado. La URL solicitada identifica las familias de fuentes para las que el usuario desea cargar fuentes. Estos datos se registran para que Google pueda determinar con qué frecuencia se solicita una determinada familia de fuentes. En la Google Fonts Web API, el agente de usuario debe adaptar la fuente que se genera para el respectivo tipo de navegador. El agente de usuario se registra principalmente con fines de depuración y se utiliza para generar estadísticas de uso agregadas con las que se mide la popularidad de las familias de fuentes. Estas estadísticas de uso agregadas se publican en la página «Analíticas» de Google Fonts. Por último, la URL de referencia se registra de modo que los datos puedan utilizarse para el mantenimiento de la producción y pueda generarse un informe agregado sobre las principales integraciones en función del número de solicitudes de fuentes. Según su propia información, Google no utiliza ninguna de la información recopilada por Google Fonts para crear perfiles de usuarios finales ni para mostrar anuncios dirigidos; prestador del servicio: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD); sitio web: https://fonts.google.com/; política de privacidad: https://policies.google.com/privacy; más información: https://developers.google.com/fonts/faq/privacy?hl=de.",
+      "Font Awesome (puesta a disposición en servidor propio): Presentación de fuentes y símbolos; prestador del servicio: los iconos de Font Awesome se alojan en nuestro servidor, no se transmiten datos al proveedor de Font Awesome; bases jurídicas: intereses legítimos (art. 6, apdo. 1, frase 1, letra f) RGPD).",
+    ],
+  },
+  {
+    h: "Modificación y actualización de la política de privacidad",
+    p: [
+      "Le rogamos que se informe periódicamente sobre el contenido de nuestra política de privacidad. Adaptamos la política de privacidad tan pronto como los cambios en los tratamientos de datos que llevamos a cabo lo hagan necesario. Le informaremos en cuanto los cambios requieran una acción de colaboración por su parte (p. ej., consentimiento) u otra notificación individual.",
+      "En la medida en que en esta política de privacidad indiquemos direcciones e información de contacto de empresas y organizaciones, le rogamos que tenga en cuenta que las direcciones pueden cambiar con el tiempo y que verifique la información antes de ponerse en contacto.",
+    ],
+  },
+  {
+    h: "Derechos de los interesados",
+    p: [
+      "Como interesado, le asisten diversos derechos en virtud del RGPD, que resultan en particular de los art. 15 a 21 RGPD:",
+      "Derecho de oposición: Tiene derecho a oponerse en cualquier momento, por motivos relacionados con su situación particular, al tratamiento de los datos personales que le conciernen basado en el art. 6, apdo. 1, letra e) o f) RGPD; esto se aplica también a la elaboración de perfiles basada en dichas disposiciones. Si los datos personales que le conciernen se tratan con fines de publicidad directa, tiene derecho a oponerse en cualquier momento al tratamiento de los datos personales que le conciernen con fines de dicha publicidad; esto se aplica también a la elaboración de perfiles en la medida en que esté relacionada con dicha publicidad directa.",
+      "Derecho de revocación del consentimiento: Tiene derecho a revocar en cualquier momento los consentimientos otorgados.",
+      "Derecho de acceso: Tiene derecho a solicitar la confirmación de si se están tratando datos que le conciernen y a acceder a dichos datos, así como a obtener más información y una copia de los datos de conformidad con los requisitos legales.",
+      "Derecho de rectificación: Tiene derecho, de conformidad con los requisitos legales, a solicitar que se completen los datos que le conciernen o que se rectifiquen los datos inexactos que le conciernen.",
+      "Derecho de supresión y de limitación del tratamiento: Tiene derecho, de conformidad con los requisitos legales, a solicitar que los datos que le conciernen se supriman sin demora o, alternativamente, de conformidad con los requisitos legales, a solicitar una limitación del tratamiento de los datos.",
+      "Derecho a la portabilidad de los datos: Tiene derecho a recibir los datos que le conciernen y que nos haya facilitado, de conformidad con los requisitos legales, en un formato estructurado, de uso común y de lectura mecánica, o a solicitar su transmisión a otro responsable.",
+      "Reclamación ante una autoridad de control: Sin perjuicio de cualquier otro recurso administrativo o judicial, tiene derecho a presentar una reclamación ante una autoridad de control, en particular en el Estado miembro de su residencia habitual, lugar de trabajo o lugar de la supuesta infracción, si considera que el tratamiento de los datos personales que le conciernen infringe lo dispuesto en el RGPD.",
+    ],
+  },
+];
+
+export const widerruf: LegalSection[] = [
+  {
+    h: "Información sobre el derecho de desistimiento de Fortis Inkasso GmbH & Co. KG",
+    p: ["Aquí puede acceder a nuestra política de privacidad."],
+  },
+  {
+    h: "Información sobre el derecho de desistimiento",
+    p: [
+      "Tiene derecho a desistir de este contrato en un plazo de catorce días sin necesidad de justificación.",
+      "El plazo de desistimiento es de catorce días a partir del día de la celebración del contrato.",
+      "Para ejercer el derecho de desistimiento, deberá comunicarnos (Fortis Inkasso GmbH & Co. KG, Gehrtsstrasse 16, 40235 Düsseldorf, correo electrónico: info@fortis-inkasso.de) su decisión de desistir de este contrato mediante una declaración inequívoca (p. ej., una carta enviada por correo postal o un correo electrónico).",
+      "Para respetar el plazo de desistimiento, basta con que envíe la comunicación relativa al ejercicio del derecho de desistimiento antes de que expire dicho plazo.",
+      "El usuario solicita que comencemos a prestar los servicios inmediatamente después del registro (antes de que expire el plazo legal de desistimiento).",
+      "El usuario toma conocimiento de que su derecho legal de desistimiento como consumidor puede extinguirse una vez prestado íntegramente el servicio (y/o de que, en su caso, deberá abonar un importe proporcional si desiste tras el inicio de la prestación).",
+      "Consecuencias del desistimiento",
+      "Si desiste de este contrato, le devolveremos todos los pagos que hayamos recibido de usted, incluidos los gastos de entrega (con excepción de los gastos adicionales resultantes de que haya elegido una modalidad de entrega distinta de la entrega estándar más económica ofrecida por nosotros), sin demora indebida y, en todo caso, a más tardar en un plazo de catorce días a partir del día en que recibamos la comunicación de su desistimiento de este contrato. Para dicha devolución utilizaremos el mismo medio de pago que usted haya empleado en la transacción original, salvo que se haya acordado expresamente otra cosa con usted; en ningún caso se le cobrarán gastos como consecuencia de dicha devolución.",
+    ],
+  },
+];
