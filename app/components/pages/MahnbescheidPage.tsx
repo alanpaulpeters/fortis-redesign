@@ -22,7 +22,7 @@ export function MahnbescheidPage({ locale }: { locale: Locale }) {
           secondary={{ label: t.ctaSecondary, href: kontakt }}
         />
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
               {t.side1Title}
@@ -40,7 +40,7 @@ export function MahnbescheidPage({ locale }: { locale: Locale }) {
               {t.steps.map((step, i) => (
                 <li
                   key={i}
-                  className="rounded-2xl border border-white/[0.07] bg-surface/60 p-6"
+                  className="rounded-2xl border border-line/[0.07] bg-surface/60 p-6"
                 >
                   <span className="text-3xl font-semibold text-mint">
                     {i + 1}.
@@ -54,7 +54,7 @@ export function MahnbescheidPage({ locale }: { locale: Locale }) {
           </div>
         </section>
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-2">
             <div>
               <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">

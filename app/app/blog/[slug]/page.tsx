@@ -138,7 +138,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         </article>
 
         {related.length > 0 && (
-          <section className="border-t border-white/[0.06] py-20">
+          <section className="border-t border-line/[0.06] py-20">
             <div className="mx-auto max-w-6xl px-6">
               <h2 className="mb-10 text-2xl font-semibold tracking-tight">
                 Weitere Beiträge aus {post.category}.
@@ -148,7 +148,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                   <Link
                     key={r.slug}
                     href={`/blog/${r.slug}`}
-                    className="group rounded-2xl border border-white/[0.07] bg-surface/60 p-6 transition-colors hover:bg-surface"
+                    className="group rounded-2xl border border-line/[0.07] bg-surface/60 p-6 transition-colors hover:bg-surface"
                   >
                     <time
                       dateTime={r.date}

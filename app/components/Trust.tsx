@@ -50,7 +50,7 @@ export function Trust({ locale = "de" }: { locale?: Locale }) {
           whileInView="show"
           viewport={{ once: true, amount: 0.4 }}
           variants={fadeUp}
-          className="mt-16 grid gap-10 border-y border-white/[0.06] py-12 sm:grid-cols-3"
+          className="mt-16 grid gap-10 border-y border-line/[0.06] py-12 sm:grid-cols-3"
         >
           <div className="flex flex-col gap-2">
             <span className="text-5xl font-semibold tracking-tight text-mint">
@@ -87,7 +87,7 @@ export function Trust({ locale = "de" }: { locale?: Locale }) {
               viewport={{ once: true, amount: 0.4 }}
               variants={fadeUp}
               transition={{ delay: i * 0.07 }}
-              className="flex flex-col justify-between gap-6 rounded-3xl border border-white/[0.07] bg-surface/50 p-6"
+              className="flex flex-col justify-between gap-6 rounded-3xl border border-line/[0.07] bg-surface/50 p-6"
             >
               <blockquote className="text-[14.5px] font-light leading-relaxed text-frost/75">
                 &bdquo;{item.quote}&ldquo;

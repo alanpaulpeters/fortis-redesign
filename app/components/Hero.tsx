@@ -124,7 +124,7 @@ export function Hero({ locale = "de" }: { locale?: Locale }) {
 
           <motion.div
             variants={fadeUp}
-            className="relative mx-auto w-full max-w-sm rounded-3xl border border-white/[0.10] bg-white/[0.05] p-6 backdrop-blur-2xl"
+            className="relative mx-auto w-full max-w-sm rounded-3xl border border-line/[0.10] bg-line/[0.05] p-6 backdrop-blur-2xl"
           >
             <div className="mb-5 flex items-center gap-2.5 text-sm font-medium text-frost/70">
               <span className="relative flex h-2 w-2">
@@ -147,7 +147,7 @@ export function Hero({ locale = "de" }: { locale?: Locale }) {
                     className="flex items-center gap-3 rounded-2xl px-3 py-3"
                   >
                     <span
-                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/[0.06]"
+                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-line/[0.06]"
                       style={{ color: event.color }}
                     >
                       <event.icon size={18} weight="fill" />
@@ -166,7 +166,7 @@ export function Hero({ locale = "de" }: { locale?: Locale }) {
         </motion.div>
       </div>
 
-      <div className="absolute inset-x-0 bottom-0 z-10 border-t border-white/[0.07]">
+      <div className="absolute inset-x-0 bottom-0 z-10 border-t border-line/[0.07]">
         <div className="mx-auto grid max-w-5xl grid-cols-3 gap-4 px-6 py-7 text-center">
           <div className="flex flex-col gap-1">
             <span className="text-2xl font-semibold tracking-tight sm:text-3xl">

@@ -50,14 +50,14 @@ export function KontaktPage({ locale }: { locale: Locale }) {
       <main>
         <PageHero eyebrow={t.eyebrow} title={t.title} lead={t.lead} />
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto grid max-w-6xl gap-14 px-6 lg:grid-cols-[1fr_1.4fr]">
             <div className="flex flex-col gap-4">
               {contacts.map((c) => (
                 <a
                   key={c.label}
                   href={c.href}
-                  className="flex items-center gap-4 rounded-2xl border border-white/[0.07] bg-surface/60 p-5 transition-colors hover:bg-surface"
+                  className="flex items-center gap-4 rounded-2xl border border-line/[0.07] bg-surface/60 p-5 transition-colors hover:bg-surface"
                 >
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-mint/10 text-mint">
                     <c.icon size={22} />

@@ -48,7 +48,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
           secondary={{ label: t.ctaSecondary, href: kontakt }}
         />
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
               {t.digitalTitle}
@@ -59,7 +59,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
                 return (
                   <div
                     key={f.title}
-                    className="rounded-2xl border border-white/[0.07] bg-surface/60 p-6"
+                    className="rounded-2xl border border-line/[0.07] bg-surface/60 p-6"
                   >
                     <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-mint">
                       <Icon size={22} />
@@ -96,7 +96,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
           </div>
         </section>
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
               {t.paymentTitle}
@@ -107,7 +107,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
                 return (
                   <div
                     key={p.title}
-                    className="rounded-2xl border border-white/[0.07] bg-surface/60 p-6"
+                    className="rounded-2xl border border-line/[0.07] bg-surface/60 p-6"
                   >
                     <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-mint">
                       <Icon size={22} />
@@ -123,7 +123,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
               })}
             </div>
 
-            <div className="mt-16 grid gap-10 rounded-2xl border border-white/[0.07] bg-surface/60 p-8 lg:grid-cols-2">
+            <div className="mt-16 grid gap-10 rounded-2xl border border-line/[0.07] bg-surface/60 p-8 lg:grid-cols-2">
               <div>
                 <h3 className="text-xl font-semibold text-frost/90">
                   {t.payTitle}
@@ -145,7 +145,7 @@ export function SchuldnerPage({ locale }: { locale: Locale }) {
         </section>
 
         <Faq items={t.faqs} title={t.faqTitle} />
-        <section className="border-t border-white/[0.06] py-20 text-center">
+        <section className="border-t border-line/[0.06] py-20 text-center">
           <p className="mx-auto max-w-xl px-6 text-[15px] font-light text-frost/60">
             {t.moreHelp}{" "}
             <a href={kontakt} className="text-mint underline-offset-4 hover:underline">

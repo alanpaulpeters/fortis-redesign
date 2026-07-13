@@ -5,6 +5,32 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+  /* Dark-Theme (Default) */
+  --ink: 6 11 22; /* #060b16 */
+  --surface: 12 21 38; /* #0c1526 */
+  --raised: 19 34 60; /* #13223c */
+  --frost: 244 247 251; /* #f4f7fb */
+  --line: 255 255 255; /* Hairlines/Flächen mit Opacity */
+}
+
+html.light {
+  color-scheme: light;
+  --ink: 244 246 250; /* #f4f6fa */
+  --surface: 255 255 255;
+  --raised: 233 237 244;
+  --frost: 13 24 46; /* #0d182e */
+  --line: 13 24 46;
+}
+
+/* Logo-Varianten je Theme */
+html.light .dark-only {
+  display: none;
+}
+.light-only {
+  display: none;
+}
+html.light .light-only {
+  display: block;
 }
 
 body {
@@ -23,6 +49,8 @@ body {
 
 /* Portal-Theme: Light als Default, .dark als Umschalter */
 .portal {
+  /* Wizard-Sidebar liegt auf fixem Navy-Gradient — frost bleibt dort immer hell */
+  --frost: 244 247 251;
   --p-bg: 244 246 250; /* #f4f6fa */
   --p-card: 255 255 255;
   --p-text: 13 24 46; /* #0d182e */

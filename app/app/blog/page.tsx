@@ -29,13 +29,13 @@ export default function Blog() {
           lead={`${allPosts.length} Fachbeiträge zu Forderungsmanagement, digitalem Inkasso, Rechtsfragen und praktischen Tipps – für Gläubiger und Schuldner.`}
         />
 
-        <section className="border-t border-white/[0.06] py-20">
+        <section className="border-t border-line/[0.06] py-20">
           <div className="mx-auto max-w-6xl px-6">
             <div className="mb-12 flex flex-wrap gap-2">
               {categories.map((c) => (
                 <span
                   key={c}
-                  className="rounded-full border border-white/[0.1] bg-white/[0.04] px-4 py-1.5 text-[12px] font-medium text-frost/70"
+                  className="rounded-full border border-line/[0.1] bg-line/[0.04] px-4 py-1.5 text-[12px] font-medium text-frost/70"
                 >
                   {c}
                 </span>
@@ -47,7 +47,7 @@ export default function Blog() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group flex flex-col rounded-2xl border border-white/[0.07] bg-surface/60 p-6 transition-colors hover:bg-surface"
+                  className="group flex flex-col rounded-2xl border border-line/[0.07] bg-surface/60 p-6 transition-colors hover:bg-surface"
                 >
                   <div className="mb-4 flex items-center gap-3 text-[12px] text-frost/45">
                     <span className="rounded-full bg-mint/10 px-3 py-1 font-medium text-mint">

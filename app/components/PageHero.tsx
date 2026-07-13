@@ -22,7 +22,7 @@ export function PageHero({
 
       <div className="relative mx-auto flex max-w-4xl flex-col items-start gap-6 px-6">
         {eyebrow && (
-          <p className="rounded-full border border-white/[0.1] bg-white/[0.04] px-4 py-1.5 text-[12px] font-medium uppercase tracking-widest text-mint">
+          <p className="rounded-full border border-line/[0.1] bg-line/[0.04] px-4 py-1.5 text-[12px] font-medium uppercase tracking-widest text-mint">
             {eyebrow}
           </p>
         )}
@@ -46,7 +46,7 @@ export function PageHero({
             {secondary && (
               <a
                 href={secondary.href}
-                className="inline-flex items-center gap-2 rounded-full border border-white/[0.12] bg-white/[0.04] px-7 py-3.5 text-[15px] font-medium text-frost transition-colors hover:bg-white/[0.08]"
+                className="inline-flex items-center gap-2 rounded-full border border-line/[0.12] bg-line/[0.04] px-7 py-3.5 text-[15px] font-medium text-frost transition-colors hover:bg-line/[0.08]"
               >
                 {secondary.label}
               </a>

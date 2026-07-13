@@ -39,7 +39,7 @@ function WhatsAppDemo({ t }: { t: Dict["channels"] }) {
     <div ref={ref} className="flex w-full max-w-[320px] flex-col gap-2.5">
       <motion.div
         {...bubble(0.2)}
-        className="max-w-[90%] self-start rounded-2xl rounded-tl-md border border-white/[0.08] bg-white/[0.06] p-3.5 text-[13px] leading-snug text-frost/85"
+        className="max-w-[90%] self-start rounded-2xl rounded-tl-md border border-line/[0.08] bg-line/[0.06] p-3.5 text-[13px] leading-snug text-frost/85"
       >
         {t.waMsg1}
         <span className="mt-2 block rounded-lg bg-mint/10 px-3 py-2 text-[12px] text-mint">
@@ -54,7 +54,7 @@ function WhatsAppDemo({ t }: { t: Dict["channels"] }) {
       </motion.div>
       <motion.div
         {...bubble(1.8)}
-        className="max-w-[70%] self-start rounded-2xl rounded-tl-md border border-white/[0.08] bg-white/[0.06] p-3.5 text-[13px] text-frost/85"
+        className="max-w-[70%] self-start rounded-2xl rounded-tl-md border border-line/[0.08] bg-line/[0.06] p-3.5 text-[13px] text-frost/85"
       >
         {t.waMsg3}
       </motion.div>
@@ -88,7 +88,7 @@ export function Channels({ locale = "de" }: { locale?: Locale }) {
             whileInView="show"
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeUp}
-            className="flex flex-col gap-8 rounded-3xl border border-white/[0.07] bg-surface/70 p-8 md:col-span-2 md:flex-row md:items-center md:justify-between md:p-10"
+            className="flex flex-col gap-8 rounded-3xl border border-line/[0.07] bg-surface/70 p-8 md:col-span-2 md:flex-row md:items-center md:justify-between md:p-10"
           >
             <div className="flex max-w-xs flex-col gap-3">
               <span className="text-wa">
@@ -128,7 +128,7 @@ export function Channels({ locale = "de" }: { locale?: Locale }) {
             whileInView="show"
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeUp}
-            className="relative flex min-h-[240px] flex-col justify-end overflow-hidden rounded-3xl border border-white/[0.07] p-8 md:col-span-2"
+            className="relative flex min-h-[240px] flex-col justify-end overflow-hidden rounded-3xl border border-line/[0.07] p-8 md:col-span-2"
           >
             <Image
               src="/media/building.jpg"
@@ -157,7 +157,7 @@ export function Channels({ locale = "de" }: { locale?: Locale }) {
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeUp}
             transition={{ delay: 0.08 }}
-            className="flex flex-col justify-between gap-10 rounded-3xl border border-white/[0.07] bg-surface/70 p-8"
+            className="flex flex-col justify-between gap-10 rounded-3xl border border-line/[0.07] bg-surface/70 p-8"
           >
             <span className="text-frost/80">
               <Scales size={30} weight="light" />

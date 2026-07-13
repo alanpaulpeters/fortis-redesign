@@ -44,7 +44,7 @@ export function InkassoPage({ locale }: { locale: Locale }) {
           secondary={{ label: t.ctaSecondary, href: kontakt }}
         />
 
-        <section className="border-t border-white/[0.06] py-24 sm:py-28">
+        <section className="border-t border-line/[0.06] py-24 sm:py-28">
           <div className="mx-auto grid max-w-6xl gap-16 px-6 lg:grid-cols-[1fr_1.2fr]">
             <div>
               <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -64,7 +64,7 @@ export function InkassoPage({ locale }: { locale: Locale }) {
                 return (
                   <li
                     key={step.title}
-                    className="flex gap-5 rounded-2xl border border-white/[0.07] bg-surface/60 p-6"
+                    className="flex gap-5 rounded-2xl border border-line/[0.07] bg-surface/60 p-6"
                   >
                     <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-mint/10 text-mint">
                       <Icon size={22} />

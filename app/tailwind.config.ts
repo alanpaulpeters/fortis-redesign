@@ -12,11 +12,12 @@ const config: Config = {
         mint2: "#00b386",
         wa: "#25d366",
         muted: "#6e6e73",
-        // Dark-Theme-Flächen (warmes Navy-Schwarz, kein reines Schwarz)
-        ink: "#060b16",
-        surface: "#0c1526",
-        raised: "#13223c",
-        frost: "#f4f7fb",
+        // Theme-Flächen (Dark default, Light via html.light — CSS-Variablen in globals.css)
+        ink: "rgb(var(--ink) / <alpha-value>)",
+        surface: "rgb(var(--surface) / <alpha-value>)",
+        raised: "rgb(var(--raised) / <alpha-value>)",
+        frost: "rgb(var(--frost) / <alpha-value>)",
+        line: "rgb(var(--line) / <alpha-value>)",
         // Portal-Theme (Light/Dark über CSS-Variablen in .portal)
         pbg: "rgb(var(--p-bg) / <alpha-value>)",
         pcard: "rgb(var(--p-card) / <alpha-value>)",

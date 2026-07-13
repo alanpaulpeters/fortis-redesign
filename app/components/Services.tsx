@@ -6,9 +6,9 @@ import { getDict, type Locale } from "@/content/locales";
 export function Services({ locale = "de" }: { locale?: Locale }) {
   const services = getDict(locale).services.items;
   return (
-    <section id="leistungen" className="border-t border-white/[0.06] py-24">
+    <section id="leistungen" className="border-t border-line/[0.06] py-24">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="flex flex-col divide-y divide-white/[0.06]">
+        <div className="flex flex-col divide-y divide-line/[0.06]">
           {services.map((service, i) => (
             <motion.div
               key={service.title}

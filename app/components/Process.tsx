@@ -34,7 +34,7 @@ function StageVisual({ stage, t }: { stage: number; t: ProcessDict }) {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 + i * 0.12, duration: 0.4 }}
-            className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-4 py-3 text-[13px] text-frost/70"
+            className="rounded-xl border border-line/[0.08] bg-line/[0.04] px-4 py-3 text-[13px] text-frost/70"
           >
             {line}
           </motion.div>
@@ -86,7 +86,7 @@ function StageVisual({ stage, t }: { stage: number; t: ProcessDict }) {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.12 + i * 0.1, duration: 0.4 }}
-              className="flex flex-col items-center gap-2 rounded-2xl border border-white/[0.08] bg-white/[0.04] py-5"
+              className="flex flex-col items-center gap-2 rounded-2xl border border-line/[0.08] bg-line/[0.04] py-5"
             >
               <span style={{ color: channelColors[i] }}>
                 <Icon size={26} weight="fill" />
@@ -165,7 +165,7 @@ export function Process({ locale = "de" }: { locale?: Locale }) {
                     <span
                       key={i}
                       className={`h-9 w-[3px] rounded-full transition-colors duration-500 ${
-                        i <= stage ? "bg-mint" : "bg-white/[0.10]"
+                        i <= stage ? "bg-mint" : "bg-line/[0.10]"
                       }`}
                     />
                   ))}
@@ -185,7 +185,7 @@ export function Process({ locale = "de" }: { locale?: Locale }) {
                 </div>
               </div>
 
-              <div className="flex min-h-[340px] items-center justify-center rounded-3xl border border-white/[0.07] bg-surface/60 p-8">
+              <div className="flex min-h-[340px] items-center justify-center rounded-3xl border border-line/[0.07] bg-surface/60 p-8">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={stage}
@@ -211,7 +211,7 @@ export function Process({ locale = "de" }: { locale?: Locale }) {
             {stages.map((_, i) => (
               <div key={i} className="grid items-center gap-10 md:grid-cols-2">
                 <StageText stage={i} t={t} />
-                <div className="flex min-h-[280px] items-center justify-center rounded-3xl border border-white/[0.07] bg-surface/60 p-8">
+                <div className="flex min-h-[280px] items-center justify-center rounded-3xl border border-line/[0.07] bg-surface/60 p-8">
                   <StageVisual stage={i} t={t} />
                 </div>
               </div>

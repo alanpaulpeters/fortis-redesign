@@ -32,7 +32,7 @@ export function Human({ locale = "de" }: { locale?: Locale }) {
             alt={t.imgAlt}
             width={880}
             height={660}
-            className="rounded-3xl border border-white/[0.07] object-cover"
+            className="rounded-3xl border border-line/[0.07] object-cover"
           />
         </motion.div>
 

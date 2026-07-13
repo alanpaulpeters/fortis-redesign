@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { Logo } from "@/components/Logo";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   motion,
   AnimatePresence,
@@ -56,12 +57,12 @@ function LanguageSwitcher({ locale }: { locale: Locale }) {
         <CaretDown size={10} className={`transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
-        <div className="absolute right-0 top-10 w-40 rounded-2xl border border-white/[0.1] bg-surface p-1.5 shadow-2xl">
+        <div className="absolute right-0 top-10 w-40 rounded-2xl border border-line/[0.1] bg-surface p-1.5 shadow-2xl">
           {languages.map((lang) => (
             <a
               key={lang.code}
               href={target(lang.code)}
-              className={`flex items-center gap-2.5 rounded-xl px-3 py-2 text-[13px] transition-colors hover:bg-white/[0.05] ${
+              className={`flex items-center gap-2.5 rounded-xl px-3 py-2 text-[13px] transition-colors hover:bg-line/[0.05] ${
                 lang.code === locale ? "text-mint" : "text-frost/75"
               }`}
             >
@@ -92,19 +93,12 @@ export function Nav({ locale = "de" }: { locale?: Locale }) {
         <nav
           className={`flex h-[52px] w-full max-w-[980px] items-center justify-between rounded-2xl border px-5 backdrop-blur-2xl transition-colors duration-300 ${
             scrolled
-              ? "border-white/[0.08] bg-surface/85"
-              : "border-white/[0.10] bg-white/[0.05]"
+              ? "border-line/[0.08] bg-surface/85"
+              : "border-line/[0.10] bg-line/[0.05]"
           }`}
         >
           <Link href={home} aria-label="Fortis" className="flex items-center">
-            <Image
-              src="/media/logo-white.png"
-              alt="Fortis"
-              width={92}
-              height={26}
-              priority
-              className="h-[22px] w-auto"
-            />
+            <Logo priority />
           </Link>
 
           <div className="hidden items-center gap-6 lg:flex">
@@ -120,6 +114,7 @@ export function Nav({ locale = "de" }: { locale?: Locale }) {
           </div>
 
           <div className="flex items-center gap-1.5">
+            <ThemeToggle />
             <div className="hidden lg:block">
               <LanguageSwitcher locale={locale} />
             </div>
@@ -152,13 +147,7 @@ export function Nav({ locale = "de" }: { locale?: Locale }) {
             className="fixed inset-0 z-[60] flex flex-col bg-ink px-8 py-8 lg:hidden"
           >
             <div className="flex items-center justify-between">
-              <Image
-                src="/media/logo-white.png"
-                alt="Fortis"
-                width={92}
-                height={26}
-                className="h-[22px] w-auto"
-              />
+              <Logo />
               <button
                 type="button"
                 aria-label={t.menuClose}

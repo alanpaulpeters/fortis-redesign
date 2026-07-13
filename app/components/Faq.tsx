@@ -17,13 +17,13 @@ export function Faq({
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="border-t border-white/[0.06] py-28 sm:py-32">
+    <section id="faq" className="border-t border-line/[0.06] py-28 sm:py-32">
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="mb-12 text-4xl font-semibold tracking-tight sm:text-5xl">
           {title}
         </h2>
 
-        <div className="flex flex-col divide-y divide-white/[0.07]">
+        <div className="flex flex-col divide-y divide-line/[0.07]">
           {items.map((faq, index) => {
             const isOpen = open === index;
             return (

@@ -5,7 +5,7 @@ import { PaperPlaneTilt } from "@phosphor-icons/react/dist/ssr";
 import { getDict, type Locale } from "@/content/locales";
 
 const inputClass =
-  "w-full rounded-xl border border-white/[0.1] bg-white/[0.04] px-4 py-3 text-[15px] text-frost placeholder:text-frost/35 focus:border-mint/60 focus:outline-none";
+  "w-full rounded-xl border border-line/[0.1] bg-line/[0.04] px-4 py-3 text-[15px] text-frost placeholder:text-frost/35 focus:border-mint/60 focus:outline-none";
 
 export function ContactForm({ locale = "de" }: { locale?: Locale }) {
   const t = getDict(locale).pages.kontakt.form;

@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { getDict, localePrefix, type Locale } from "@/content/locales";
 
 const legalLinks = [
@@ -14,17 +14,11 @@ export function Footer({ locale = "de" }: { locale?: Locale }) {
   const home = localePrefix[locale] || "/";
 
   return (
-    <footer className="border-t border-white/[0.06]">
+    <footer className="border-t border-line/[0.06]">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div className="flex flex-col gap-5">
           <Link href={home} aria-label="Fortis">
-            <Image
-              src="/media/logo-white.png"
-              alt="Fortis"
-              width={100}
-              height={28}
-              className="h-6 w-auto"
-            />
+            <Logo className="h-6 w-auto" />
           </Link>
           <address className="text-sm font-light not-italic leading-relaxed text-frost/50">
             Fortis Inkasso GmbH &amp; Co. KG
@@ -87,7 +81,7 @@ export function Footer({ locale = "de" }: { locale?: Locale }) {
         </div>
       </div>
 
-      <div className="border-t border-white/[0.06]">
+      <div className="border-t border-line/[0.06]">
         <div className="mx-auto max-w-6xl px-6 py-6">
           <p className="text-[13px] font-light text-frost/40">
             © {new Date().getFullYear()} Fortis Inkasso GmbH &amp; Co. KG.{" "}

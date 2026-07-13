@@ -29,7 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${sora.variable} h-full`}>
-      <body className="min-h-full font-sans">{children}</body>
+      <body className="min-h-full font-sans">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(localStorage.getItem("fortis-theme")==="light")document.documentElement.classList.add("light")}catch(e){}`,
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
