@@ -31,9 +31,9 @@ export const de = {
   },
   hero: {
     eyebrow: "Forderungsmanagement auf Erfolgsbasis",
-    titleA: "Ihr Geld.",
-    titleB: "Sicher zurück.",
-    lead: "Fortis treibt Ihre offenen Forderungen ein. Kostenlos für Sie, wir verdienen nur bei Erfolg.",
+    titleA: "Konsequent in der Sache.",
+    titleB: "Persönlich im Kontakt.",
+    lead: "Digitales Forderungsmanagement mit klaren Prozessen und persönlicher Betreuung.",
     cta: "Forderung einreichen",
     how: "So funktioniert's",
     live: "Live-Aktivität",
@@ -69,7 +69,7 @@ export const de = {
       {
         badge: "Alle Kanäle",
         title: "Wir erreichen jeden Schuldner",
-        body: "WhatsApp und QR-Zahlung für die Jungen, Telefon und Brief für alle anderen. Immer respektvoll.",
+        body: "WhatsApp und QR-Code, Telefon und Brief – wir erreichen jeden Schuldner auf dem passenden Weg. Immer respektvoll.",
       },
       {
         badge: "100% an Sie",
@@ -85,9 +85,9 @@ export const de = {
   },
   channels: {
     title: "Digital. Und trotzdem persönlich.",
-    lead: "Wir erreichen Schuldner dort, wo sie wirklich reagieren. Das ist keine gewöhnliche Inkasso-Firma.",
-    waTitle: "Per WhatsApp bezahlt, in Minuten.",
-    waBody: "Die junge Generation liest keine Mahnbriefe. Sie zahlt per Link, direkt im Chat.",
+    lead: "Wir verbinden digitale Kommunikation und eine unkomplizierte Zahlung über einen sicheren Zahlungslink oder QR-Code mit persönlichem Service per Telefon und, sofern sinnvoll, nach vorheriger Abstimmung auch vor Ort. So wählen wir für jeden Fall den passenden Kontaktweg.",
+    waTitle: "Digital erreichbar, per Link bezahlt.",
+    waBody: "Viele Menschen bevorzugen digitale Kommunikation. Deshalb nutzen wir je nach Fall auch digitale Kanäle wie WhatsApp. Die Forderung kann unkompliziert über einen sicheren Zahlungslink beglichen werden.",
     waMsg1:
       "Guten Tag Herr Mustermann, Ihre Rechnung über 115,95 € ist noch offen. Hier können Sie direkt bezahlen:",
     waMsg2: "Danke, erledigt 👍",
@@ -96,10 +96,10 @@ export const de = {
     qrBody: "Gescannt, bezahlt, bestätigt. Ohne Login, ohne App.",
     phoneTitle: "Telefon. Und wenn nötig, vor Ort.",
     phoneBody:
-      "Für alle, die das persönliche Gespräch bevorzugen: Wir nehmen uns Zeit am Telefon und kommen nach Abstimmung auch zum Hausbesuch.",
-    lawTitle: "Anwälte inklusive",
+      "Für alle, die persönlichen Kontakt bevorzugen, stehen wir selbstverständlich telefonisch zur Verfügung – und kommen bei Bedarf und nach vorheriger Abstimmung auch persönlich vorbei.",
+    lawTitle: "Angebundene Rechtsanwälte",
     lawBody:
-      "Bei Bedarf setzen unsere Anwälte Ihre Forderung gerichtlich durch. Ohne Verzögerung.",
+      "Bei Bedarf setzen unsere angebundenen Rechtsanwälte Ihre Forderung gerichtlich durch. Ohne Verzögerung.",
   },
   services: {
     items: [
@@ -129,7 +129,7 @@ export const de = {
     stars: "5 von 5 Sternen",
     testimonials: [
       "Zuverlässige Lösung für unbezahlte Rechnungen. Exzellente Arbeit, sehr zufrieden.",
-      "Professionelle Unterstützung, das Anwaltsteam hat alles effektiv geregelt.",
+      "Professionelle Unterstützung, die angebundenen Rechtsanwälte haben alles effektiv geregelt.",
       "Meine unbezahlten Rechnungen wurden erfolgreich eingefordert. Sehr zufrieden.",
       "Schnelle und kompetente Hilfe. Exzellente Arbeit, empfehlenswert.",
     ],
@@ -146,7 +146,7 @@ export const de = {
       {
         question: "Wie läuft der Forderungseinzug ab?",
         answer:
-          "Zunächst empfehlen wir ein außergerichtliches Vorgehen, angepasst an Ihre Situation als Privatperson oder Unternehmen. Nach der Beauftragung versenden wir die erste Inkassomahnung mit allen essenziellen Daten der Forderung. Reagiert der Schuldner nicht, folgt eine weitere, bestimmtere Mahnung. Oft wirkt bereits die Beauftragung eines Inkassounternehmens, weil der Schuldner sich seiner Lage bewusst wird.",
+          "Zunächst empfehlen wir ein außergerichtliches Vorgehen, angepasst an Ihre Situation als Privatperson oder Unternehmen. Nach der Beauftragung versenden wir die erste Inkassomahnung mit allen essenziellen Daten der Forderung. Reagiert der Schuldner nicht, folgt eine weitere, bestimmtere Mahnung. Die Beauftragung eines professionellen Inkassounternehmens signalisiert dem Schuldner die Ernsthaftigkeit der Situation – und führt in vielen Fällen bereits dadurch zu einer zügigen und für alle Seiten zufriedenstellenden Lösung.",
       },
       {
         question: "Welche Kosten fallen für das Inlandsinkasso an?",
@@ -176,7 +176,7 @@ export const de = {
       {
         question: "Was passiert, wenn der Schuldner die Forderung bestreitet?",
         answer:
-          "Wir prüfen die Forderung erneut und fordern bei berechtigten Einwänden Nachweise vom Gläubiger an. Ist die Forderung berechtigt und der Schuldner zahlt weiterhin nicht, leiten unsere Anwälte das gerichtliche Verfahren ein. Obsiegen Sie, trägt der Schuldner auch die Verfahrenskosten.",
+          "Wir prüfen die Forderung erneut und fordern bei berechtigten Einwänden Nachweise vom Gläubiger an. Ist die Forderung berechtigt und der Schuldner zahlt weiterhin nicht, leiten unsere angebundenen Rechtsanwälte das gerichtliche Verfahren ein. Obsiegen Sie, trägt der Schuldner auch die Verfahrenskosten.",
       },
     ],
   },
@@ -197,7 +197,7 @@ export const de = {
       ctaSecondary: "Beratungsgespräch",
       sectionTitle: "Vom ersten Schreiben bis zum Titel.",
       sectionP1:
-        "Unser Service bietet Unternehmen sowie Privatpersonen die Möglichkeit, kosten- und zeiteffizient ihre Forderungen durch uns geltend zu machen. Bei erfolgloser außergerichtlicher Geltendmachung haben wir als Rechtsanwälte sofort die Möglichkeit, eine gerichtliche Geltendmachung durch unsere Partnerkanzlei zu verfolgen – ein fließender Übergang, bei dem keine weitere Zeit verloren geht.",
+        "Unser Service bietet Unternehmen sowie Privatpersonen die Möglichkeit, kosten- und zeiteffizient ihre Forderungen durch uns geltend zu machen. Bei Bedarf leiten wir Ihre Unterlagen direkt an unsere angebundenen Rechtsanwälte weiter, die die gerichtliche Geltendmachung nahtlos übernehmen – ein fließender Übergang, bei dem keine weitere Zeit verloren geht.",
       sectionP2:
         "Wir arbeiten auf Erfolgsbasis: Im Erfolgsfall trägt Ihr Schuldner die Inkassogebühren, Sie erhalten 100 % Ihrer Forderung.",
       steps: [
@@ -244,7 +244,7 @@ export const de = {
         "Oftmals begleicht der Schuldner nach Zustellung des Mahnbescheids die offene Forderung, um ein kostenpflichtiges gerichtliches Verfahren zu verhindern – das Mahnverfahren ist dann beendet. Für Mahn- und Vollstreckungsbescheid fallen Rechtsanwalts- und Gerichtskosten an; lediglich für die geringen Gerichtskosten müssen Sie in Vorkasse gehen.",
       block2Title: "Wenn Ihr Schuldner Widerspruch einlegt.",
       block2Body:
-        "Legt Ihr Schuldner Widerspruch gegen den Mahnbescheid oder Einspruch gegen den Vollstreckungsbescheid ein, muss die Forderung im Gerichtsverfahren geltend gemacht werden. Unsere Anwälte beraten Sie und übernehmen die Fortsetzung des Forderungseinzugs. Ist Ihre Forderung berechtigt, trägt der Schuldner auch diese Kosten.",
+        "Legt Ihr Schuldner Widerspruch gegen den Mahnbescheid oder Einspruch gegen den Vollstreckungsbescheid ein, muss die Forderung im Gerichtsverfahren geltend gemacht werden. Unsere angebundenen Rechtsanwälte beraten Sie und übernehmen die Fortsetzung des Forderungseinzugs. Ist Ihre Forderung berechtigt, trägt der Schuldner auch diese Kosten.",
     },
     ausland: {
       metaTitle: "Auslandsinkasso – Forderungen international durchsetzen",
