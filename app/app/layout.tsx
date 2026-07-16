@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 
@@ -20,6 +20,17 @@ export const metadata: Metadata = {
     locale: "de_DE",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
+// themeColor: passt zum Dark-Default aus globals.css (light/dark je Präferenz)
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#060b16" },
+    { media: "(prefers-color-scheme: light)", color: "#f4f6fa" },
+  ],
 };
 
 export default function RootLayout({
