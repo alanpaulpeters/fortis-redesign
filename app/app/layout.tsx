@@ -10,7 +10,7 @@ const sora = Sora({
 export const metadata: Metadata = {
   metadataBase: new URL("https://fortis-inkasso.de"),
   title: {
-    default: "Fortis Inkasso | Ihr Geld. Sicher zurück.",
+    default: "Fortis Inkasso | Konsequent in der Sache. Persönlich im Kontakt.",
     template: "%s | Fortis Inkasso",
   },
   description:
